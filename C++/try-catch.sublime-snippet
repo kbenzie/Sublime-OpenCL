@@ -1,0 +1,13 @@
+<snippet>
+	<description>Try Catch Block</description>
+	<content><![CDATA[try
+{
+	${1:/* code */}
+}
+catch(${2:...})
+{
+	${3:/* code */}	
+}$0]]></content>
+	<tabTrigger>try</tabTrigger>
+	<scope>source.c++, source.objc++</scope>
+</snippet>
