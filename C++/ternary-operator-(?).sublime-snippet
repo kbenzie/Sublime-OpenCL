@@ -1,0 +1,6 @@
+<snippet>
+	<description>Ternary Operator (condition ? true : false)</description>
+	<content><![CDATA[(${1:/* condition */}) ? ${2:true} : ${3:false};$0]]></content>
+	<tabTrigger>?</tabTrigger>
+	<scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
