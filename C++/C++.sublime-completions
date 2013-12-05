@@ -1,0 +1,19 @@
+{
+	"scope": "source.c++, source.objc++",
+	"completions":
+	[
+		// {"trigger": "", "contents": ""}, // complex completion
+		// "", // simple completion
+
+		"void",
+		"bool",
+		"true",
+		"false",
+		"char",
+		"short",
+		"int",
+		"long",
+		"float",
+		"double",
+	]
+}
