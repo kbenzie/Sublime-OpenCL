@@ -24,7 +24,7 @@
 		"return",
 		"short",
 		"signed",
-		// "sizeof", //\todo snippet
+		// "sizeof",
 		"static",
 		// "struct",
 		// "switch",

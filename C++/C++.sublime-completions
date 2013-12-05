@@ -11,7 +11,7 @@
 		// "bitor",
 		"bool",
 		// "catch",
-		"class",
+		// "class",
 		"compl",
 		"constexpr",
 		// "const_cast",
@@ -44,8 +44,8 @@
 		"thread_local",
 		"throw",
 		"true",
-		// "try",//\todo snippet
-		// "typeid",//\todo snippet
+		// "try",
+		// "typeid",
 		"typename",
 		"using",
 		"virtual",
