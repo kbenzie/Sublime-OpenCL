@@ -8,7 +8,7 @@ The archive should be be placed in the following paths dependent on your operati
 
 linux   : `~/.config/sublime-text-3/Installed Packages/C++.sublime-package`
 
-windows : `todo`
+windows : `C:\Users\<user-name>\AppData\Roaming\Sublime Text 3\Installed Packages`
 
 osx     : `todo`
 
