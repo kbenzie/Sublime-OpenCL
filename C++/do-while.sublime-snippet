@@ -2,8 +2,8 @@
 	<description>Do While Loop</description>
 	<content><![CDATA[do
 {
-	${2:/* code */}
-} while (${1:/* condition */});$0]]></content>
+	${0:/* code */}
+} while (${1:condition});]]></content>
 	<tabTrigger>do</tabTrigger>
 	<scope>source.c, source.objc, source.c++, source.objc++</scope>
 </snippet>
