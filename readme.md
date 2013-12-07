@@ -362,7 +362,7 @@ Tigger: `readfile`
 
 ```
 std::vector<char> v;
-if (FILE$ *fp = fopen(${1:"filename"}, "r"))
+if (FILE *fp = fopen(${1:"filename"}, "r"))
 {
 	char buf[1024];
 	while (size_t len = fread(buf, 1, sizeof(buf), fp))
