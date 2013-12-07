@@ -274,7 +274,7 @@ sizeof($1)$0
 Tigger: `static_assert`
 
 ```
-static_assert(${1:constant}, "${2:message}");$0
+static_assert(${1:condition}, "${2:message}");$0
 ```
 
 #### Constant Expression
