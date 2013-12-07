@@ -1,0 +1,7 @@
+<snippet>
+	<description>Lambda Function</description>
+	<content><![CDATA[[${1:capture}](${2:params}) $3{${4:
+	}${5:/* code */}${4/	//}}]]></content>
+	<tabTrigger>[]</tabTrigger>
+	<scope>source.c++, source.objc++</scope>
+</snippet>

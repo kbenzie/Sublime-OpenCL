@@ -269,6 +269,21 @@ Tigger: `sizeof`
 sizeof($1)$0
 ```
 
+#### Lambda Function
+
+Trigger: `[]`
+
+```
+[${1:capture}](${2:params}) $3{${4:
+	}${5:/* code */}
+$4}
+```
+
+```
+[${1:capture}](${2:params}) $3{${6:
+	}${5:/* code */}$6}
+```
+
 #### Static Assert
 
 Tigger: `static_assert`
