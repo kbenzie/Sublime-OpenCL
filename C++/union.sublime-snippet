@@ -1,5 +1,5 @@
 <snippet>
-	<description>Union</description>
+	<description>Union Definition</description>
 	<content><![CDATA[union ${1:name}
 {
 	${2:/* data */}

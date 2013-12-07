@@ -1,5 +1,5 @@
 <snippet>
-	<description>Enumeration</description>
+	<description>Enum Definition</description>
 	<content><![CDATA[enum ${1:name}
 {
 	${2:/* values */}

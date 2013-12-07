@@ -1,5 +1,5 @@
 <snippet>
-	<name>Class</name>
+	<name>Class Definition</name>
 	<content><![CDATA[class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
 {
 public:

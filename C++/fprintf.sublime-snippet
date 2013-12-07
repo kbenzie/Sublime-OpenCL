@@ -1,5 +1,5 @@
 <snippet>
-	<description>fprintf …</description>
+	<description>File Print Function</description>
 	<content><![CDATA[fprintf(${1:stderr}, "${2:%s}\\n"${2/([^%]|%%)*(%.)?.*/(?2:, :\);)/}$3${2/([^%]|%%)*(%.)?.*/(?2:\);)/}]]></content>
 	<tabTrigger>fprintf</tabTrigger>
 	<scope>source.c, source.objc, source.c++, source.objc++</scope>

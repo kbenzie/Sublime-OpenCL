@@ -24,13 +24,17 @@ This package is a modified clone of the default C\+\+ package provided with Subl
 
 Snippets provide a helpful means of avoiding repetitively typing boilerplate code whilst also placing the cursor exactly where it needs to be to enable the user to quickly enter valid code. The title of each of the following sections relates exactly to the text required to show the completion menu whilst writing code, selecting the snippet can be achieved by pressing either the `tab` or `enter` keys. The the code will be immediately stamped out with the cursor moved to the first useful place to enter code, moving through the insertion points is done using `tab` for forwards and `shift + tab` for backwards. Below the insertion points will be denoted with a `$n` where `n` starts at `1` for the first insertion point, rising consecutively, the final position is has the value `0`. In the event `$n` appears multiple times the same text will be inserted at all points at once unless otherwise stated. If an insertion point contains placeholder text it will be denoted as `${n:placeholder}`. Certain snippets contain regular expressions or variables but for ease of reading those will not be contained in below.
 
-##### include
+#### Include Header
+
+Tigger: `include`
 
 ```
 #include ${1:"}$2${1:"}$0
 ```
 
-#### main
+#### Main Function
+
+Tigger: `main`
 
 ```
 int main(${1:int argc, char const${TM_C_POINTER: *}argv[]})
@@ -40,7 +44,9 @@ int main(${1:int argc, char const${TM_C_POINTER: *}argv[]})
 }
 ```
 
-#### define
+#### Define Macro
+
+Tigger: `define`
 
 ```
 #ifndef $1
@@ -48,7 +54,9 @@ int main(${1:int argc, char const${TM_C_POINTER: *}argv[]})
 #endif
 ```
 
-#### if
+#### If Statement
+
+Tigger: `if`
 
 ```
 if(${1:/* condition */})
@@ -57,7 +65,9 @@ if(${1:/* condition */})
 }
 ```
 
-#### else
+#### Else Condition
+
+Tigger: `else`
 
 ```
 else
@@ -66,7 +76,9 @@ else
 }
 ```
 
-#### switch
+#### Switch Statement
+
+Tigger: `switch`
 
 ```
 switch(${1:/* condition */})
@@ -77,7 +89,9 @@ default: ${2:/* catch all */}
 }
 ```
 
-#### case
+#### Switch Case Statement
+
+Tigger: `case`
 
 ```
 case ${1:/* value */}:
@@ -85,7 +99,9 @@ case ${1:/* value */}:
 	break;$0
 ```
 
-#### class
+#### Class Definition
+
+Tigger: `class`
 
 ```
 class ${1:filename}
@@ -98,7 +114,9 @@ public:
 };$0
 ```
 
-#### struct
+#### Struct Definition
+
+Tigger: `struct`
 
 ```
 struct ${1:${filename}}
@@ -107,7 +125,9 @@ struct ${1:${filename}}
 }$3;$0
 ```
 
-#### enum
+#### Enum Definition
+
+Tigger: `enum`
 
 ```
 enum ${1:name}
@@ -116,7 +136,9 @@ enum ${1:name}
 };$0
 ```
 
-#### union
+#### Union Definition
+
+Tigger: `union`
 
 ```
 union ${1:name}
@@ -125,7 +147,9 @@ union ${1:name}
 }$3;$0
 ```
 
-#### namespace
+#### Namespace
+
+Tigger: `namespace`
 
 ```
 namespace $1
@@ -134,7 +158,9 @@ namespace $1
 }
 ```
 
-#### for
+#### For Loop
+
+Tigger: `for`
 
 ```
 for(${1:int} ${3:i} = 0; $3 < ${2:count}; ${4:++}$3)
@@ -143,7 +169,9 @@ for(${1:int} ${3:i} = 0; $3 < ${2:count}; ${4:++}$3)
 }
 ```
 
-#### while
+#### While Loop
+
+Tigger: `while`
 
 ```
 while(${1:condition})
@@ -152,7 +180,9 @@ while(${1:condition})
 }
 ```
 
-#### do
+#### Do While Loop
+
+Tigger: `do`
 
 ```
 do
@@ -161,7 +191,9 @@ do
 } while (${1:condition});
 ```
 
-#### forr
+#### Range For Loop
+
+Tigger: `forr`
 
 ```
 for(auto ${1:element} : ${2:container})
@@ -170,7 +202,9 @@ for(auto ${1:element} : ${2:container})
 }
 ```
 
-#### forv
+#### Vector For Loop
+
+Tigger: `forv`
 
 ```
 for(std::vector<$1>::iterator ${3:i} = $2.begin(); $3 != $2.end(); ++$3)
@@ -179,49 +213,65 @@ for(std::vector<$1>::iterator ${3:i} = $2.begin(); $3 != $2.end(); ++$3)
 }
 ```
 
-#### const_cast
+#### Static Cast
 
-```
-const_cast<${1:T}*>(${2:pointer})$0
-```
-
-#### dynamic_cast
-
-```
-dynamic_cast<${1:T}*>(${2:pointer})$0
-```
-
-#### static_cast
+Tigger: `static_cast`
 
 ```
 static_cast<${1:T}*>(${2:pointer})$0
 ```
 
-#### reinterpret_cast
+#### Reinterpret Cast
+
+Tigger: `reinterpret_cast`
 
 ```
 reinterpret_cast<${1:T}*>(${2:pointer})$0
 ```
 
-#### sizeof
+#### Const Cast
+
+Tigger: `const_cast`
+
+```
+const_cast<${1:T}*>(${2:pointer})$0
+```
+
+#### Dynamic Cast
+
+Tigger: `dynamic_cast`
+
+```
+dynamic_cast<${1:T}*>(${2:pointer})$0
+```
+
+#### Sizeof Operator
+
+Tigger: `sizeof`
 
 ```
 sizeof($1)$0
 ```
 
-#### static_assert
+#### Static Assert
+
+Tigger: `static_assert`
 
 ```
 static_assert(${1:constant}, "${2:message}");$0
 ```
 
-#### template
+#### Template Definition
+
+Tigger: `template`
 
 ```
 template<typename ${1:T}> $0
 ```
 
-#### try
+#### Try Catch Block
+
+Tigger: `try`
 
 ```
 try
@@ -234,7 +284,9 @@ catch(${2:...})
 }$0
 ```
 
-#### catch
+#### Catch Block
+
+Tigger: `catch`
 
 ```
 catch(${1:...})
@@ -243,19 +295,25 @@ catch(${1:...})
 }$0
 ```
 
-#### typedef
+#### Type Definition
+
+Tigger: `typedef`
 
 ```
 typedef ${1:Type} ${2:TypeDef};
 ```
 
-#### typeid
+#### Type Identifier
+
+Tigger: `typeid`
 
 ```
 typeid($1)$0
 ```
 
-#### printf
+#### Print Function
+
+Tigger: `printf`
 
 The printf and related functions use the original packages clever regular expression allowing multiple `%` format entries in the format string at `$1` which will then enable additional insertion comma separated points at the penultimate insertion point.
 
@@ -263,19 +321,25 @@ The printf and related functions use the original packages clever regular expres
 printf("${1:%s}\\n", $2)$0
 ```
 
-#### fprintf
+#### File Print Function
+
+Tigger: `fprintf`
 
 ```
 fprintf(${1:stderr}, "${2:%s}\\n", $3)$0
 ```
 
-#### sprintf
+#### String Print Function
+
+Tigger: `sprintf`
 
 ```
 sprintf(${1:cstring}, "${2:%s}\\n", $3)$0
 ```
 
-#### readfile
+#### Read File Into Vector
+
+Tigger: `readfile`
 
 ```
 std::vector<char> v;
@@ -288,13 +352,17 @@ if (FILE${TM_C_POINTER: *}fp = fopen(${1:"filename"}, "r"))
 }
 ```
 
-#### map
+#### std::map
+
+Tigger: `map`
 
 ```
 std::map<${1:key}, ${2:value}> ${3:map};$0
 ```
 
-#### vector
+#### std::vector
+
+Tigger: `vector`
 
 ```
 std::vector<${1:char}> v;$0
@@ -328,6 +396,8 @@ unsigned
 void
 volatile
 ```
+
+Common integer types
 
 ```
 wchar_t
