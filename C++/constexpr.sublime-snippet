@@ -1,0 +1,9 @@
+<snippet>
+	<description>Constant Expression</description>
+	<content><![CDATA[constexpr ${1:void} ${2:func}($3)
+{
+	${0:/* code */}
+}]]></content>
+	<tabTrigger>constexpr</tabTrigger>
+	<scope>source.c++, source.objc++</scope>
+</snippet>
