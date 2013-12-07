@@ -50,7 +50,7 @@ Tigger: `define`
 
 ```
 #ifndef $1
-#define ${1:SYMBOL} ${2:value}
+#define ${1:macro} ${2:value}
 #endif
 ```
 
@@ -319,7 +319,7 @@ catch(${1:...})
 Tigger: `typedef`
 
 ```
-typedef ${1:Type} ${2:TypeDef};
+typedef ${1:type} ${2:definition};
 ```
 
 #### Type Identifier
