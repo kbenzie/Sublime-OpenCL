@@ -37,7 +37,7 @@ Tigger: `include`
 Tigger: `main`
 
 ```
-int main(${1:int argc, char const${TM_C_POINTER: *}argv[]})
+int main(${1:int argc, char const *argv[]})
 {
 	${0:/* code */}
 	return 0;
