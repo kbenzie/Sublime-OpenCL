@@ -99,6 +99,14 @@ case ${1:/* value */}:
 	break;$0
 ```
 
+#### Ternary Operator
+
+Trigger: `?`
+
+```
+(${1:condition}) ? ${2:true} : ${3:false}
+```
+
 #### Class Definition
 
 Tigger: `class`
@@ -259,6 +267,17 @@ Tigger: `static_assert`
 
 ```
 static_assert(${1:constant}, "${2:message}");$0
+```
+
+#### Constant Expression
+
+Trigger: `constexpr`
+
+```
+constexpr ${1:void} ${2:func}($3)
+{
+	${0:/* code */}
+}
 ```
 
 #### Template Definition
