@@ -13,7 +13,7 @@
 		// "catch",
 		// "class",
 		"compl",
-		"constexpr",
+		// "constexpr",
 		// "const_cast",
 		"decltype",
 		"delete",
