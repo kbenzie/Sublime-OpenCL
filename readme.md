@@ -127,7 +127,7 @@ public:
 Tigger: `struct`
 
 ```
-struct ${1:${filename}}
+struct ${1:{filename}}
 {
 	${2:/* data */}
 }$3;$0
@@ -153,17 +153,6 @@ union ${1:name}
 {
 	${2:/* data */}
 }$3;$0
-```
-
-#### Namespace
-
-Tigger: `namespace`
-
-```
-namespace $1
-{
-	$0
-}
 ```
 
 #### For Loop
@@ -219,6 +208,25 @@ for(std::vector<$1>::iterator ${3:i} = $2.begin(); $3 != $2.end(); ++$3)
 {
 	${0:/* code */}
 }
+```
+
+#### Namespace
+
+Tigger: `namespace`
+
+```
+namespace $1
+{
+	${0:/* code */}
+}
+```
+
+#### Template Definition
+
+Tigger: `template`
+
+```
+template<typename ${1:T}> $0
 ```
 
 #### Static Cast
@@ -278,14 +286,6 @@ constexpr ${1:void} ${2:func}($3)
 {
 	${0:/* code */}
 }
-```
-
-#### Template Definition
-
-Tigger: `template`
-
-```
-template<typename ${1:T}> $0
 ```
 
 #### Try Catch Block
