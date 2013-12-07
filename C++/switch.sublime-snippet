@@ -1,6 +1,6 @@
 <snippet>
 	<description>Switch Statement</description>
-	<content><![CDATA[switch(${1:/* condition */})
+	<content><![CDATA[switch(${1:condition})
 {
 ${0:/* cases */}
 default: ${2:/* catch all */}

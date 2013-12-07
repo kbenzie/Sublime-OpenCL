@@ -59,7 +59,7 @@ Tigger: `define`
 Tigger: `if`
 
 ```
-if(${1:/* condition */})
+if(${1:condition})
 {
 	${0:/* code */}
 }
@@ -81,7 +81,7 @@ else
 Tigger: `switch`
 
 ```
-switch(${1:/* condition */})
+switch(${1:condition})
 {
 ${0:/* cases */}
 default: ${2:/* catch all */}
@@ -94,7 +94,7 @@ default: ${2:/* catch all */}
 Tigger: `case`
 
 ```
-case ${1:/* value */}:
+case ${1:value}:
 	${2:/* code */}
 	break;$0
 ```

@@ -1,6 +1,6 @@
 <snippet>
 	<description>If Statement</description>
-	<content><![CDATA[if(${1:/* condition */})
+	<content><![CDATA[if(${1:condition})
 {
 	${0:/* code */}
 }]]></content>
