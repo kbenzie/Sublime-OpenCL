@@ -30,6 +30,9 @@ Tigger: `include`
 #include ${1:"}$2${1:"}$0
 ```
 
+1. Pressing '<' will insert a '>' at the end of the header path
+2. The header path
+
 #### Main Function
 
 Tigger: `main`
@@ -42,6 +45,9 @@ int main(${1:int argc, char const *argv[]})
 }
 ```
 
+1. Edit or remove parameters
+0. Insert code
+
 #### Define Macro
 
 Tigger: `define`
@@ -51,6 +57,9 @@ Tigger: `define`
 #define ${1:macro} ${2:value}
 #endif
 ```
+
+1. Name of preprocessor marco
+2. Optional value of macro
 
 #### If Statement
 
@@ -63,6 +72,9 @@ if(${1:condition})
 }
 ```
 
+1. Boolean condition
+0. Insert code
+
 #### Else Condition
 
 Tigger: `else`
@@ -73,6 +85,8 @@ else
 	${0:/* code */}
 }
 ```
+
+0. Insert code
 
 #### Switch Statement
 
@@ -87,6 +101,10 @@ default: ${2:/* catch all */}
 }
 ```
 
+1. Variable to switch on
+2. Default case code
+0. Insert cases
+
 #### Switch Case Statement
 
 Tigger: `case`
@@ -97,6 +115,9 @@ case ${1:value}:
 	break;$0
 ```
 
+1. Case value
+2. Insert code
+
 #### Ternary Operator
 
 Trigger: `?`
@@ -104,6 +125,10 @@ Trigger: `?`
 ```
 (${1:condition}) ? ${2:true} : ${3:false}
 ```
+
+1. Boolean condition
+2. True case
+3. False case
 
 #### Class Definition
 
@@ -120,6 +145,10 @@ public:
 };$0
 ```
 
+1. Inserts filename by default, constructor and destructor named automatically
+2. Constructor arguments
+3. Data members
+
 #### Struct Definition
 
 Tigger: `struct`
@@ -130,6 +159,10 @@ struct ${1:{filename}}
 	${2:/* data */}
 }$3;$0
 ```
+
+1. Inserts filename by default
+2. Data members
+3. Optional: Insert instance name
 
 #### Enum Definition
 
@@ -142,6 +175,10 @@ enum ${1:name}
 };$0
 ```
 
+1. Optional: Enum name
+2. Enem values
+
+
 #### Union Definition
 
 Tigger: `union`
@@ -152,6 +189,10 @@ union ${1:name}
 	${2:/* data */}
 }$3;$0
 ```
+
+1. Optional: Union name
+2. Union data members
+3. Optional: Instance name
 
 #### For Loop
 
@@ -164,6 +205,12 @@ for(${1:int} ${3:i} = 0; $3 < ${2:count}; ${4:++}$3)
 }
 ```
 
+1. Increment variable type
+2. Loop end condition
+3. Increment variable name
+4. Increment operator
+0. Insert code
+
 #### While Loop
 
 Tigger: `while`
@@ -174,6 +221,9 @@ while(${1:condition})
 	${0:/* code */}
 }
 ```
+
+1. Boolean condition
+0. Insert code
 
 #### Do While Loop
 
@@ -186,6 +236,9 @@ do
 } while (${1:condition});
 ```
 
+1. Boolean condition
+0. Insert code
+
 #### Range For Loop
 
 Tigger: `forr`
@@ -196,6 +249,9 @@ for(auto ${1:element} : ${2:container})
 	${0:/* code */}
 }
 ```
+
+1. Iterator variable name
+2. Container name
 
 #### Vector For Loop
 
@@ -208,6 +264,10 @@ for(std::vector<$1>::iterator ${3:i} = $2.begin(); $3 != $2.end(); ++$3)
 }
 ```
 
+1. Vector element type
+2. Vector name
+3. Iterator variable name
+
 #### Namespace
 
 Tigger: `namespace`
@@ -219,6 +279,9 @@ namespace $1
 }
 ```
 
+1. Namespace name
+0. Insert code
+
 #### Template Definition
 
 Tigger: `template`
@@ -226,6 +289,8 @@ Tigger: `template`
 ```
 template<typename ${1:T}> $0
 ```
+
+1. Tempalte type name
 
 #### Static Cast
 
@@ -235,6 +300,9 @@ Tigger: `static_cast`
 static_cast<${1:T}*>(${2:pointer})$0
 ```
 
+1. Return type
+2. Variable to cast
+
 #### Reinterpret Cast
 
 Tigger: `reinterpret_cast`
@@ -242,6 +310,9 @@ Tigger: `reinterpret_cast`
 ```
 reinterpret_cast<${1:T}*>(${2:pointer})$0
 ```
+
+1. Return type
+2. Variable to cast
 
 #### Const Cast
 
@@ -251,6 +322,9 @@ Tigger: `const_cast`
 const_cast<${1:T}*>(${2:pointer})$0
 ```
 
+1. Return type
+2. Variable to cast
+
 #### Dynamic Cast
 
 Tigger: `dynamic_cast`
@@ -259,6 +333,9 @@ Tigger: `dynamic_cast`
 dynamic_cast<${1:T}*>(${2:pointer})$0
 ```
 
+1. Return type
+2. Variable to cast
+
 #### Sizeof Operator
 
 Tigger: `sizeof`
@@ -266,6 +343,8 @@ Tigger: `sizeof`
 ```
 sizeof($1)$0
 ```
+
+1. Variable or type
 
 #### Lambda Function
 
@@ -277,10 +356,11 @@ Trigger: `[]`
 $4}
 ```
 
-```
-[${1:capture}](${2:params}) $3{${6:
-	}${5:/* code */}$6}
-```
+1. Lambda capture
+2. Function parameters
+3. Optional: Return type
+4. Optional: Press space to change to single line syntax
+5. Insert code
 
 #### Static Assert
 
@@ -289,6 +369,9 @@ Tigger: `static_assert`
 ```
 static_assert(${1:condition}, "${2:message}");$0
 ```
+
+1. Compile time constant
+2. Assertion message
 
 #### Constant Expression
 
@@ -300,6 +383,11 @@ constexpr ${1:void} ${2:func}($3)
 	${0:/* code */}
 }
 ```
+
+1. Function return type
+2. Function name
+3. Function parameters
+0. Insert code
 
 #### Try Catch Block
 
@@ -316,6 +404,10 @@ catch(${2:...})
 }$0
 ```
 
+1. Insert code
+2. Exception type
+3. Insert code
+
 #### Catch Block
 
 Tigger: `catch`
@@ -327,6 +419,9 @@ catch(${1:...})
 }$0
 ```
 
+1. Exception type
+2. Insert code
+
 #### Type Definition
 
 Tigger: `typedef`
@@ -335,6 +430,9 @@ Tigger: `typedef`
 typedef ${1:type} ${2:definition};
 ```
 
+1. Existing type name
+2. Defined type name
+
 #### Type Identifier
 
 Tigger: `typeid`
@@ -342,6 +440,8 @@ Tigger: `typeid`
 ```
 typeid($1)$0
 ```
+
+1. Type name
 
 #### Print Function
 
@@ -353,6 +453,9 @@ The printf and related functions use the original packages clever regular expres
 printf("${1:%s}\\n", $2)$0
 ```
 
+1. Format string
+2. Optional: Variables to print
+
 #### File Print Function
 
 Tigger: `fprintf`
@@ -361,6 +464,9 @@ Tigger: `fprintf`
 fprintf(${1:stderr}, "${2:%s}\\n", $3)$0
 ```
 
+1. Format string
+2. Optional: Variables to print
+
 #### String Print Function
 
 Tigger: `sprintf`
@@ -368,6 +474,9 @@ Tigger: `sprintf`
 ```
 sprintf(${1:cstring}, "${2:%s}\\n", $3)$0
 ```
+
+1. Format string
+2. Optional: Variables to print
 
 #### Read File Into Vector
 
@@ -384,6 +493,8 @@ if (FILE *fp = fopen(${1:"filename"}, "r"))
 }
 ```
 
+1. Name of file to be read
+
 #### std::map
 
 Tigger: `map`
@@ -392,6 +503,10 @@ Tigger: `map`
 std::map<${1:key}, ${2:value}> ${3:map};$0
 ```
 
+1. Map key type
+2. Map value type
+3. Map variable name
+
 #### std::vector
 
 Tigger: `vector`
@@ -399,6 +514,8 @@ Tigger: `vector`
 ```
 std::vector<${1:char}> v;$0
 ```
+
+1. Vector element type
 
 ### Completions
 
