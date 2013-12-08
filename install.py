@@ -32,41 +32,36 @@ def install_package(package_path, install_path):
 	else:
 		return False
 
+# Function searches for sublime data directory the calls install_package()
+def find_sublime_dir_install(config_dir, sublime_text_dir):
+	if os.path.exists(config_dir):
+		# Test for Sublime Text config directory
+		if install_package(archive_path, os.path.join(os.path.join(config_dir, sublime_text_dir), "Installed Packages")):
+			return True
+		# Test for Sublime Text 2 config directory
+		if install_package(archive_path, os.path.join(os.path.join(config_dir, sublime_text_dir + "-2"), "Installed Packages")):
+			return True
+		# Test for Sublime Text 3 config directory
+		if install_package(archive_path, os.path.join(os.path.join(config_dir, sublime_text_dir + "-3"), "Installed Packages")):
+			return True
+	return False
+	
 # Determine operating system
 platform_info = platform.platform()
 installed = False
 if "Linux" in platform_info:
-	# Determine is config direcotyr exists
-	config_dir = os.path.expanduser("~/.config")
-	if os.path.exists(config_dir):
-		# Test for Sublime Text 2 condig directory
-		if install_package(archive_path, os.path.join(os.path.join(config_dir, "sublime-text-2"), "Installed Packages")):
-			installed = True
-		# Test for Sublime Text 3 condig directory
-		if install_package(archive_path, os.path.join(os.path.join(config_dir, "sublime-text-3"), "Installed Packages")):
-			installed = True
+	# Determine is config directory exists and install
+	installed = find_sublime_dir_install(os.path.expanduser("~/.config"), "sublime-text")
 
 elif "Windows" in platform_info:
-	# Determine is config direcotyr exists
-	config_dir = "%APPDATA%"
-	if os.path.exists(config_dir):
-		# Test for Sublime Text 2 condig directory
-		if install_package(archive_path, os.path.join(os.path.join(config_dir, "Sublime Text 2"), "Installed Packages")):
-			installed = True
-		# Test for Sublime Text 3 condig directory
-		if install_package(archive_path, os.path.join(os.path.join(config_dir, "Sublime Text 3"), "Installed Packages")):
-			installed = True
+	# Determine is config directory exists and install
+	# todo testing required
+	installed = find_sublime_dir_install(os.path.expanduser("%APPDATA%"), "Sublime Text")
 
 elif "OSX" in platform_info:
-	# Determine is config direcotyr exists
-	config_dir = "~/Library/Application Support"
-	if os.path.exists(config_dir):
-		# Test for Sublime Text 2 condig directory
-		if install_package(archive_path, os.path.join(os.path.join(config_dir, "Sublime Text 2"), "Installed Packages")):
-			installed = True
-		# Test for Sublime Text 3 condig directory
-		if install_package(archive_path, os.path.join(os.path.join(config_dir, "Sublime Text 3"), "Installed Packages")):
-			installed = True
+	# Determine is config directory exists and install
+	# todo testing required
+	installed = find_sublime_dir_install(os.path.expanduser("~/Library/Application Support"), "Installed Packages")
 
 if not installed:
 	print(archive_name + " was not installed, please install manually")
