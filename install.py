@@ -11,7 +11,8 @@ shutil.make_archive(path, "zip", path)
 # Build and rename the archive
 archive_path = path + ".sublime-package"
 os.rename(path + ".zip", archive_path)
-print("Created archive: " + archive_path)
+archive_dir, archive_name = os.path.split(archive_path)
+print("Created archive: " + archive_name)
 
 # Function installs package at the install path
 def install_package(package_path, install_path):
@@ -26,23 +27,24 @@ def install_package(package_path, install_path):
 			print("Installed: " + os.path.join(install_path, filename))
 		else:
 			print("Skipping: " + install_path)
+			return False
 		return True
 	else:
 		return False
 
 # Determine operating system
 platform_info = platform.platform()
-config_dir_found = False
+installed = False
 if "Linux" in platform_info:
 	# Determine is config direcotyr exists
 	config_dir = os.path.expanduser("~/.config")
 	if os.path.exists(config_dir):
 		# Test for Sublime Text 2 condig directory
 		if install_package(archive_path, os.path.join(os.path.join(config_dir, "sublime-text-2"), "Installed Packages")):
-			config_dir_found = True
+			installed = True
 		# Test for Sublime Text 3 condig directory
 		if install_package(archive_path, os.path.join(os.path.join(config_dir, "sublime-text-3"), "Installed Packages")):
-			config_dir_found = True
+			installed = True
 
 elif "Windows" in platform_info:
 	# Determine is config direcotyr exists
@@ -50,10 +52,10 @@ elif "Windows" in platform_info:
 	if os.path.exists(config_dir):
 		# Test for Sublime Text 2 condig directory
 		if install_package(archive_path, os.path.join(os.path.join(config_dir, "Sublime Text 2"), "Installed Packages")):
-			config_dir_found = True
+			installed = True
 		# Test for Sublime Text 3 condig directory
 		if install_package(archive_path, os.path.join(os.path.join(config_dir, "Sublime Text 3"), "Installed Packages")):
-			config_dir_found = True
+			installed = True
 
 elif "OSX" in platform_info:
 	# Determine is config direcotyr exists
@@ -61,10 +63,12 @@ elif "OSX" in platform_info:
 	if os.path.exists(config_dir):
 		# Test for Sublime Text 2 condig directory
 		if install_package(archive_path, os.path.join(os.path.join(config_dir, "Sublime Text 2"), "Installed Packages")):
-			config_dir_found = True
+			installed = True
 		# Test for Sublime Text 3 condig directory
 		if install_package(archive_path, os.path.join(os.path.join(config_dir, "Sublime Text 3"), "Installed Packages")):
-			config_dir_found = True
+			installed = True
 
-if not config_dir_found:
-	print("Could not find Sublime Text config directory, please install manually")
+if not installed:
+	print(archive_name + " was not installed, please install manually")
+else:
+	os.remove(archive_path)

@@ -1,15 +1,15 @@
 # sublime-lang
 
-Provided in the repository are the source file for an improved version of the Sublime Text C\+\+ package which contains snippets and reserved word completions. When installed correctly this package overrides the default C\+\+ package without removing it. This has only been tested with Sublime Text 3 beta which as available on Linux Mint 15 or for download from [sublimetext.com](http://sublimetext.com).
+Provided in the repository are the source files for an improved version of the Sublime Text C\+\+ package which contains snippets and completions for reserved words and function like language constructs as well as a small number of other functions. When installed this package overrides the default C\+\+ package without removing it, to uninstall simply remove this package. At this has only been tested with Sublime Text 3 beta which available Ubuntu packages and on Windows as download from [sublimetext.com](http://sublimetext.com).
 
 # Installation
 
-Download [this package](https://bitbucket.org/infektor/sublime-lang/downloads/C++.sublime-package), alternatively you can compress the contents of the C++ directory into a zip archive. Note: Only the files within the directory should be included in the archive and that the archive must not contain the .zip file extension.
+The python script 'install.py' is the easiest method of installing the package from source. Simply run the script and it will search for the correct directory to install the package. Note that Mac OSX support should be functional but has not been tested, if there are any issues contact the maintainer.
 
-The archive should be be placed in the following paths dependent on your operating system:
+Alternatively you can download the package [here](https://bitbucket.org/infektor/sublime-lang/downloads/C++.sublime-package) and install it manually in the appropriate location for your platform as listed below. Note however that this package may not be the most recent version and it is recommended to install from source when possible.
 
 * Windows: %APPDATA%\Sublime Text 3\Installed Packages
-* OS X: ~/Library/Application Support/Sublime Text 3/* Installed Packages
+* OS X: ~/Library/Application Support/Sublime Text 3/Installed Packages
 * Linux: ~/.config/sublime-text-3/Installed Packages
 
 # Usage
