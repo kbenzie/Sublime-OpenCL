@@ -8,11 +8,9 @@ Download [this package](https://bitbucket.org/infektor/sublime-lang/downloads/C+
 
 The archive should be be placed in the following paths dependent on your operating system:
 
-linux   : `~/.config/sublime-text-3/Installed Packages/C++.sublime-package`
-
-windows : `C:\Users\<user-name>\AppData\Roaming\Sublime Text 3\Installed Packages`
-
-osx     : `todo`
+* Windows: %APPDATA%\Sublime Text 3\Installed Packages
+* OS X: ~/Library/Application Support/Sublime Text 3/* Installed Packages
+* Linux: ~/.config/sublime-text-3/Installed Packages
 
 # Usage
 
