@@ -7,7 +7,7 @@
 catch(${2:...})
 {
 	${3:/* code */}	
-}$0]]></content>
+}]]></content>
 	<tabTrigger>try</tabTrigger>
 	<scope>source.c++, source.objc++</scope>
 </snippet>

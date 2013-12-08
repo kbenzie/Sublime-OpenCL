@@ -3,7 +3,7 @@
 	<content><![CDATA[struct ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
 {
 	${2:/* data */}
-}$3;$0]]></content>
+}$3;]]></content>
 	<tabTrigger>struct</tabTrigger>
 	<scope>source.c, source.objc, source.c++, source.objc++</scope>
 </snippet>

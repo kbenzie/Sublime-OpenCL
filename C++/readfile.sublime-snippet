@@ -1,7 +1,7 @@
 <snippet>
 	<description>Read File Into Vector</description>
-	<content><![CDATA[std::vector<char> v;
-if (FILE${TM_C_POINTER: *}fp = fopen(${1:"filename"}, "r"))
+	<content><![CDATA[std::vector<char> ${1:v};
+if (FILE${TM_C_POINTER: *}fp = fopen(${2:"filename"}, "r"))
 {
 	char buf[1024];
 	while (size_t len = fread(buf, 1, sizeof(buf), fp))

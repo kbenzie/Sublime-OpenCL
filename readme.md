@@ -107,7 +107,7 @@ Tigger: `case`
 ```
 case ${1:value}:
 	${2:/* code */}
-	break;$0
+	break;
 ```
 
 1. Case value
@@ -137,7 +137,7 @@ public:
 	~$1();
 
 	${3:/* data */}
-};$0
+};
 ```
 
 1. Inserts filename by default, constructor and destructor named automatically
@@ -152,7 +152,7 @@ Tigger: `struct`
 struct ${1:{filename}}
 {
 	${2:/* data */}
-}$3;$0
+}$3;
 ```
 
 1. Inserts filename by default
@@ -167,7 +167,7 @@ Tigger: `enum`
 enum ${1:name}
 {
 	${2:/* values */}
-};$0
+};
 ```
 
 1. Optional: Enum name
@@ -182,7 +182,7 @@ Tigger: `union`
 union ${1:name}
 {
 	${2:/* data */}
-}$3;$0
+}$3;
 ```
 
 1. Optional: Union name
@@ -288,7 +288,7 @@ template<typename ${1:T}> $0
 Tigger: `static_cast`
 
 ```
-static_cast<${1:T}*>(${2:pointer})$0
+static_cast<${1:T}*>(${2:pointer})
 ```
 
 1. Return type
@@ -299,7 +299,7 @@ static_cast<${1:T}*>(${2:pointer})$0
 Tigger: `reinterpret_cast`
 
 ```
-reinterpret_cast<${1:T}*>(${2:pointer})$0
+reinterpret_cast<${1:T}*>(${2:pointer})
 ```
 
 1. Return type
@@ -310,7 +310,7 @@ reinterpret_cast<${1:T}*>(${2:pointer})$0
 Tigger: `const_cast`
 
 ```
-const_cast<${1:T}*>(${2:pointer})$0
+const_cast<${1:T}*>(${2:pointer})
 ```
 
 1. Return type
@@ -321,7 +321,7 @@ const_cast<${1:T}*>(${2:pointer})$0
 Tigger: `dynamic_cast`
 
 ```
-dynamic_cast<${1:T}*>(${2:pointer})$0
+dynamic_cast<${1:T}*>(${2:pointer})
 ```
 
 1. Return type
@@ -332,7 +332,7 @@ dynamic_cast<${1:T}*>(${2:pointer})$0
 Tigger: `sizeof`
 
 ```
-sizeof($1)$0
+sizeof($1)
 ```
 
 1. Variable or type
@@ -358,7 +358,7 @@ $4}
 Tigger: `static_assert`
 
 ```
-static_assert(${1:condition}, "${2:message}");$0
+static_assert(${1:condition}, "${2:message}");
 ```
 
 1. Compile time constant
@@ -391,7 +391,7 @@ try
 catch(${2:...})
 {
 	${3:/* code */}	
-}$0
+}
 ```
 
 1. Insert code
@@ -406,7 +406,7 @@ Tigger: `catch`
 catch(${1:...})
 {
 	${2:/* code */}
-}$0
+}
 ```
 
 1. Exception type
@@ -428,7 +428,7 @@ typedef ${1:type} ${2:definition};
 Tigger: `typeid`
 
 ```
-typeid($1)$0
+typeid($1)
 ```
 
 1. Type name
@@ -440,7 +440,7 @@ Tigger: `printf`
 The printf and related functions use the original packages clever regular expression allowing multiple `%` format entries in the format string at `$1` which will then enable additional insertion comma separated points at the penultimate insertion point.
 
 ```
-printf("${1:%s}\\n", $2)$0
+printf("${1:%s}\\n", $2)
 ```
 
 1. Format string
@@ -451,7 +451,7 @@ printf("${1:%s}\\n", $2)$0
 Tigger: `fprintf`
 
 ```
-fprintf(${1:stderr}, "${2:%s}\\n", $3)$0
+fprintf(${1:stderr}, "${2:%s}\\n", $3)
 ```
 
 1. Format string
@@ -462,7 +462,7 @@ fprintf(${1:stderr}, "${2:%s}\\n", $3)$0
 Tigger: `sprintf`
 
 ```
-sprintf(${1:cstring}, "${2:%s}\\n", $3)$0
+sprintf(${1:cstring}, "${2:%s}\\n", $3)
 ```
 
 1. Format string
@@ -473,8 +473,8 @@ sprintf(${1:cstring}, "${2:%s}\\n", $3)$0
 Tigger: `readfile`
 
 ```
-std::vector<char> v;
-if (FILE *fp = fopen(${1:"filename"}, "r"))
+std::vector<char> ${1:v};
+if (FILE${TM_C_POINTER: *}fp = fopen(${2:"filename"}, "r"))
 {
 	char buf[1024];
 	while (size_t len = fread(buf, 1, sizeof(buf), fp))
@@ -490,7 +490,7 @@ if (FILE *fp = fopen(${1:"filename"}, "r"))
 Tigger: `map`
 
 ```
-std::map<${1:key}, ${2:value}> ${3:map};$0
+std::map<${1:key}, ${2:value}> ${3:map};
 ```
 
 1. Map key type
@@ -502,7 +502,7 @@ std::map<${1:key}, ${2:value}> ${3:map};$0
 Tigger: `vector`
 
 ```
-std::vector<${1:char}> v;$0
+std::vector<${1:char}> v;
 ```
 
 1. Vector element type

@@ -3,7 +3,7 @@
 	<content><![CDATA[catch(${1:...})
 {
 	${2:/* code */}
-}$0]]></content>
+}]]></content>
 	<tabTrigger>catch</tabTrigger>
 	<scope>source.c++, source.objc++</scope>
 </snippet>
