@@ -30,6 +30,8 @@ Tigger: `include`
 #include ${1:"}$2${1:"}
 ```
 
+Insertion Points:
+
 1. Pressing '<' will insert a '>' at the end of the header path
 2. The header path
 
@@ -45,6 +47,8 @@ int main(${1:int argc, char const *argv[]})
 }
 ```
 
+Insertion Points:
+
 1. Edit or remove parameters
 
 #### Define Macro
@@ -56,6 +60,8 @@ Tigger: `define`
 #define ${1:macro} ${2:value}
 #endif
 ```
+
+Insertion Points:
 
 1. Name of preprocessor marco
 2. Optional value of macro
@@ -70,6 +76,8 @@ if(${1:condition})
 	${0:/* code */}
 }
 ```
+
+Insertion Points:
 
 1. Boolean condition
 
@@ -97,6 +105,8 @@ default: ${2:/* catch all */}
 }
 ```
 
+Insertion Points:
+
 1. Variable to switch on
 2. Default case code
 
@@ -110,6 +120,8 @@ case ${1:value}:
 	break;
 ```
 
+Insertion Points:
+
 1. Case value
 2. Insert code
 
@@ -120,6 +132,8 @@ Trigger: `?`
 ```
 (${1:condition}) ? ${2:true} : ${3:false}
 ```
+
+Insertion Points:
 
 1. Boolean condition
 2. True case
@@ -140,6 +154,8 @@ public:
 };
 ```
 
+Insertion Points:
+
 1. Inserts filename by default, constructor and destructor named automatically
 2. Constructor arguments
 3. Data members
@@ -154,6 +170,8 @@ struct ${1:{filename}}
 	${2:/* data */}
 }$3;
 ```
+
+Insertion Points:
 
 1. Inserts filename by default
 2. Data members
@@ -170,6 +188,8 @@ enum ${1:name}
 };
 ```
 
+Insertion Points:
+
 1. Optional: Enum name
 2. Enem values
 
@@ -185,6 +205,8 @@ union ${1:name}
 }$3;
 ```
 
+Insertion Points:
+
 1. Optional: Union name
 2. Union data members
 3. Optional: Instance name
@@ -199,6 +221,8 @@ for(${1:int} ${3:i} = 0; $3 < ${2:count}; ${4:++}$3)
 	${0:/* code */}
 }
 ```
+
+Insertion Points:
 
 1. Increment variable type
 2. Loop end condition
@@ -216,6 +240,8 @@ while(${1:condition})
 }
 ```
 
+Insertion Points:
+
 1. Boolean condition
 
 #### Do While Loop
@@ -228,6 +254,8 @@ do
 	${0:/* code */}
 } while (${1:condition});
 ```
+
+Insertion Points:
 
 1. Boolean condition
 
@@ -242,6 +270,8 @@ for(auto ${1:element} : ${2:container})
 }
 ```
 
+Insertion Points:
+
 1. Iterator variable name
 2. Container name
 
@@ -255,6 +285,8 @@ for(std::vector<$1>::iterator ${3:i} = $2.begin(); $3 != $2.end(); ++$3)
 	${0:/* code */}
 }
 ```
+
+Insertion Points:
 
 1. Vector element type
 2. Vector name
@@ -271,6 +303,8 @@ namespace $1
 }
 ```
 
+Insertion Points:
+
 1. Namespace name
 
 #### Template Definition
@@ -281,6 +315,8 @@ Tigger: `template`
 template<typename ${1:T}> $0
 ```
 
+Insertion Points:
+
 1. Tempalte type name
 
 #### Static Cast
@@ -290,6 +326,8 @@ Tigger: `static_cast`
 ```
 static_cast<${1:T}*>(${2:pointer})
 ```
+
+Insertion Points:
 
 1. Return type
 2. Variable to cast
@@ -302,6 +340,8 @@ Tigger: `reinterpret_cast`
 reinterpret_cast<${1:T}*>(${2:pointer})
 ```
 
+Insertion Points:
+
 1. Return type
 2. Variable to cast
 
@@ -312,6 +352,8 @@ Tigger: `const_cast`
 ```
 const_cast<${1:T}*>(${2:pointer})
 ```
+
+Insertion Points:
 
 1. Return type
 2. Variable to cast
@@ -324,6 +366,8 @@ Tigger: `dynamic_cast`
 dynamic_cast<${1:T}*>(${2:pointer})
 ```
 
+Insertion Points:
+
 1. Return type
 2. Variable to cast
 
@@ -334,6 +378,8 @@ Tigger: `sizeof`
 ```
 sizeof($1)
 ```
+
+Insertion Points:
 
 1. Variable or type
 
@@ -346,6 +392,8 @@ Trigger: `[]`
 	}${5:/* code */}
 $4}
 ```
+
+Insertion Points:
 
 1. Lambda capture
 2. Function parameters
@@ -361,6 +409,8 @@ Tigger: `static_assert`
 static_assert(${1:condition}, "${2:message}");
 ```
 
+Insertion Points:
+
 1. Compile time constant
 2. Assertion message
 
@@ -374,6 +424,8 @@ constexpr ${1:void} ${2:func}($3)
 	${0:/* code */}
 }
 ```
+
+Insertion Points:
 
 1. Function return type
 2. Function name
@@ -394,6 +446,8 @@ catch(${2:...})
 }
 ```
 
+Insertion Points:
+
 1. Insert code
 2. Exception type
 3. Insert code
@@ -409,6 +463,8 @@ catch(${1:...})
 }
 ```
 
+Insertion Points:
+
 1. Exception type
 2. Insert code
 
@@ -420,6 +476,8 @@ Tigger: `typedef`
 typedef ${1:type} ${2:definition};
 ```
 
+Insertion Points:
+
 1. Existing type name
 2. Defined type name
 
@@ -430,6 +488,8 @@ Tigger: `typeid`
 ```
 typeid($1)
 ```
+
+Insertion Points:
 
 1. Type name
 
@@ -443,6 +503,8 @@ The printf and related functions use the original packages clever regular expres
 printf("${1:%s}\\n", $2)
 ```
 
+Insertion Points:
+
 1. Format string
 2. Optional: Variables to print
 
@@ -454,6 +516,8 @@ Tigger: `fprintf`
 fprintf(${1:stderr}, "${2:%s}\\n", $3)
 ```
 
+Insertion Points:
+
 1. Format string
 2. Optional: Variables to print
 
@@ -464,6 +528,8 @@ Tigger: `sprintf`
 ```
 sprintf(${1:cstring}, "${2:%s}\\n", $3)
 ```
+
+Insertion Points:
 
 1. Format string
 2. Optional: Variables to print
@@ -483,6 +549,8 @@ if (FILE${TM_C_POINTER: *}fp = fopen(${2:"filename"}, "r"))
 }
 ```
 
+Insertion Points:
+
 1. Name of file to be read
 
 #### std::map
@@ -492,6 +560,8 @@ Tigger: `map`
 ```
 std::map<${1:key}, ${2:value}> ${3:map};
 ```
+
+Insertion Points:
 
 1. Map key type
 2. Map value type
@@ -504,6 +574,8 @@ Tigger: `vector`
 ```
 std::vector<${1:char}> v;
 ```
+
+Insertion Points:
 
 1. Vector element type
 
