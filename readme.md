@@ -27,7 +27,7 @@ Snippets provide a helpful means of avoiding repetitively typing boilerplate cod
 Tigger: `include`
 
 ```
-#include ${1:"}$2${1:"}$0
+#include ${1:"}$2${1:"}
 ```
 
 1. Pressing '<' will insert a '>' at the end of the header path
