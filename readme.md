@@ -46,7 +46,6 @@ int main(${1:int argc, char const *argv[]})
 ```
 
 1. Edit or remove parameters
-0. Insert code
 
 #### Define Macro
 
@@ -73,7 +72,6 @@ if(${1:condition})
 ```
 
 1. Boolean condition
-0. Insert code
 
 #### Else Condition
 
@@ -85,8 +83,6 @@ else
 	${0:/* code */}
 }
 ```
-
-0. Insert code
 
 #### Switch Statement
 
@@ -103,7 +99,6 @@ default: ${2:/* catch all */}
 
 1. Variable to switch on
 2. Default case code
-0. Insert cases
 
 #### Switch Case Statement
 
@@ -209,7 +204,6 @@ for(${1:int} ${3:i} = 0; $3 < ${2:count}; ${4:++}$3)
 2. Loop end condition
 3. Increment variable name
 4. Increment operator
-0. Insert code
 
 #### While Loop
 
@@ -223,7 +217,6 @@ while(${1:condition})
 ```
 
 1. Boolean condition
-0. Insert code
 
 #### Do While Loop
 
@@ -237,7 +230,6 @@ do
 ```
 
 1. Boolean condition
-0. Insert code
 
 #### Range For Loop
 
@@ -280,7 +272,6 @@ namespace $1
 ```
 
 1. Namespace name
-0. Insert code
 
 #### Template Definition
 
@@ -387,7 +378,6 @@ constexpr ${1:void} ${2:func}($3)
 1. Function return type
 2. Function name
 3. Function parameters
-0. Insert code
 
 #### Try Catch Block
 
