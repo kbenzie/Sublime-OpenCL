@@ -4,7 +4,7 @@ Provided in the repository are the source files for an improved version of the S
 
 # Installation
 
-The python script 'install.py' is the easiest method of installing the package from source. Simply run the script and it will search for the correct directory to install the package. Note that Windows and Mac OSX support should be functional but have not been tested, if there are any problems please create an issue if it has not already been added to the issue tracker.
+The python script 'install.py' is the easiest method of installing the package from source. Simply run the script and it will search for the correct directory to install the package. Note that Mac OSX support should be functional but has not been tested, if there are any problems please create an issue if it has not already been added to the issue tracker.
 
 Alternatively you can download the package [here](https://bitbucket.org/infektor/sublime-lang/downloads/C++.sublime-package) and install it manually in the appropriate location for your platform as listed below. Note however that this package may not be the most recent version and it is recommended to install from source when possible.
 
@@ -442,7 +442,7 @@ try
 }
 catch(${2:...})
 {
-	${3:/* code */}	
+	${3:/* code */}
 }
 ```
 
