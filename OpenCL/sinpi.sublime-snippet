@@ -1,0 +1,6 @@
+<snippet>
+	<description>Sine Pi * x</description>
+	<content><![CDATA[sinpi(${1:x})]]></content>
+	<tabTrigger>sinpi</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

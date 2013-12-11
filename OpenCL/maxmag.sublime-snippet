@@ -1,0 +1,6 @@
+<snippet>
+	<description>Returns Argument With Greatest Magnitude</description>
+	<content><![CDATA[maxmag(${1:x}, ${2:y})]]></content>
+	<tabTrigger>maxmag</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Tangent</description>
+	<content><![CDATA[half_tan(${1:x})]]></content>
+	<tabTrigger>half_tan</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

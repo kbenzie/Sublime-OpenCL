@@ -1,0 +1,6 @@
+<snippet>
+	<description>Decompose Float</description>
+	<content><![CDATA[modf(${1:x}, &${2:iptr})]]></content>
+	<tabTrigger>modf</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

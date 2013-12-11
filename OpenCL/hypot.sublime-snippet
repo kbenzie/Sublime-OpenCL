@@ -1,0 +1,6 @@
+<snippet>
+	<description>Square Root Of x^2 + y^2</description>
+	<content><![CDATA[hypot(${1:x}, ${2:y})]]></content>
+	<tabTrigger>hypot</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

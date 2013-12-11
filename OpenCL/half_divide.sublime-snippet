@@ -1,0 +1,6 @@
+<snippet>
+	<description>Division</description>
+	<content><![CDATA[half_division(${1:x}, ${2:y})]]></content>
+	<tabTrigger>half_divide</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

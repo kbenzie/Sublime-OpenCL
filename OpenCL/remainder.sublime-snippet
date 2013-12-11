@@ -1,0 +1,6 @@
+<snippet>
+	<description>Float Remainder</description>
+	<content><![CDATA[remainder(${1:x}, ${2:y})]]></content>
+	<tabTrigger>remainder</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

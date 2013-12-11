@@ -1,0 +1,6 @@
+<snippet>
+	<description>Base 10 Exponential Of x</description>
+	<content><![CDATA[halg_exp10(${1:x})]]></content>
+	<tabTrigger>half_exp10</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

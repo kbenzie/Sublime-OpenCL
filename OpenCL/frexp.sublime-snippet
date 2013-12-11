@@ -1,0 +1,6 @@
+<snippet>
+	<description>Extract Mantissa And Exponent</description>
+	<content><![CDATA[frexp(${1:x}, &${2:exp})]]></content>
+	<tabTrigger>frexp</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

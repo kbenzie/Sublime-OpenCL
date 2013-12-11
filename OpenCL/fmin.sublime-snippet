@@ -1,0 +1,6 @@
+<snippet>
+	<description>Returns Lesser Of x And y</description>
+	<content><![CDATA[fmin(${1:x}, ${2:y})]]></content>
+	<tabTrigger>fmin</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

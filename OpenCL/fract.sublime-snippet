@@ -1,0 +1,6 @@
+<snippet>
+	<description>Fractional Value In x</description>
+	<content><![CDATA[fract(${1:x}, ${2:iptr})]]></content>
+	<tabTrigger>fract</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

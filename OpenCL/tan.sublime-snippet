@@ -1,0 +1,6 @@
+<snippet>
+	<description>Tangent</description>
+	<content><![CDATA[tan(${1:x})]]></content>
+	<tabTrigger>tan</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

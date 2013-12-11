@@ -1,0 +1,6 @@
+<snippet>
+	<description>Returns Argument With Lease Magnitude</description>
+	<content><![CDATA[minmag(${1:x}, ${2:y})]]></content>
+	<tabTrigger>minmag</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

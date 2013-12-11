@@ -1,0 +1,6 @@
+<snippet>
+	<description>Divide</description>
+	<content><![CDATA[native_divie(${1:x}, ${2:y})]]></content>
+	<tabTrigger>native_divide</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

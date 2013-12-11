@@ -1,0 +1,6 @@
+<snippet>
+	<description>Base 2 Logarithm</description>
+	<content><![CDATA[native_log2(${1:x})]]></content>
+	<tabTrigger>native_log2</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

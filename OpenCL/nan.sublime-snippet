@@ -1,0 +1,6 @@
+<snippet>
+	<description>Quiet NaN</description>
+	<content><![CDATA[nan(${1:nancode})]]></content>
+	<tabTrigger>nan</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

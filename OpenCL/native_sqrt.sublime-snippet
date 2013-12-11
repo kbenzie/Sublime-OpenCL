@@ -1,0 +1,6 @@
+<snippet>
+	<description>Square Root</description>
+	<content><![CDATA[native_sqrt(${1:x})]]></content>
+	<tabTrigger>native_sqrt</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

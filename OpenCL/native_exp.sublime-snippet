@@ -1,0 +1,6 @@
+<snippet>
+	<description>Base e Exponential Of x</description>
+	<content><![CDATA[native_exp(${1:x})]]></content>
+	<tabTrigger>native_exp</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

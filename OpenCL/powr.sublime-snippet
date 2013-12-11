@@ -1,0 +1,6 @@
+<snippet>
+	<description>x To The Power +y</description>
+	<content><![CDATA[powr(${1:x}, ${2:y})]]></content>
+	<tabTrigger>powr</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

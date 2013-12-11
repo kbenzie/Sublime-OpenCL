@@ -1,0 +1,6 @@
+<snippet>
+	<description>Arc Cosine Over Pi</description>
+	<content><![CDATA[acospi(${1:x})]]></content>
+	<tabTrigger>acospi</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

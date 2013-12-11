@@ -1,0 +1,6 @@
+<snippet>
+	<description>Exponent As An Integer</description>
+	<content><![CDATA[ilogb(${1:x})]]></content>
+	<tabTrigger>ilogb</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

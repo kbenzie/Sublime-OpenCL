@@ -1,0 +1,6 @@
+<snippet>
+	<description>Cosine</description>
+	<content><![CDATA[half_cos(${1:x})]]></content>
+	<tabTrigger>half_cos</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

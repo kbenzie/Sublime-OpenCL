@@ -1,0 +1,6 @@
+<snippet>
+	<description>Cosine</description>
+	<content><![CDATA[native_cos($1:x)]]></content>
+	<tabTrigger>native_cos</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

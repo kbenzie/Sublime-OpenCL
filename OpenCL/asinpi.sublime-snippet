@@ -1,0 +1,6 @@
+<snippet>
+	<description>Arc Sine Over Pi</description>
+	<content><![CDATA[asinpi(${1:x})]]></content>
+	<tabTrigger>asinpi</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

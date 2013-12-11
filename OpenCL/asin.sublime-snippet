@@ -1,0 +1,6 @@
+<snippet>
+	<description>Arc Sine</description>
+	<content><![CDATA[asin(${1:x})]]></content>
+	<tabTrigger>asin</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Sine And Cosine</description>
+	<content><![CDATA[sincos(${1:x}, &${2:cosval})]]></content>
+	<tabTrigger>sincos</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Rounding Function</description>
+	<content><![CDATA[round(${1:x})]]></content>
+	<tabTrigger>round</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

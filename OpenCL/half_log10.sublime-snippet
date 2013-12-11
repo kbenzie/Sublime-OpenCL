@@ -1,0 +1,6 @@
+<snippet>
+	<description>Base 10 Logarithm</description>
+	<content><![CDATA[half_log10(${1:x})]]></content>
+	<tabTrigger>half_log10</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

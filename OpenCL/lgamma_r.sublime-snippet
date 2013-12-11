@@ -1,0 +1,6 @@
+<snippet>
+	<description>Log Gamma</description>
+	<content><![CDATA[lgamma_r(${1:x}, ${2:signp})]]></content>
+	<tabTrigger>lgamma_r</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

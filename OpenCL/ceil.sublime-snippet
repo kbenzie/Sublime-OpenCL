@@ -1,0 +1,6 @@
+<snippet>
+	<description>Round To Integer Toward + Infinity</description>
+	<content><![CDATA[ceil(${1:x})]]></content>
+	<tabTrigger>ceil</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

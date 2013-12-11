@@ -1,0 +1,6 @@
+<snippet>
+	<description>Natural Logarithm</description>
+	<content><![CDATA[native_log(${1:x})]]></content>
+	<tabTrigger>native_log</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

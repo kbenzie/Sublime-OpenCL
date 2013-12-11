@@ -1,0 +1,6 @@
+<snippet>
+	<description>Cosine Of X By Pi</description>
+	<content><![CDATA[cospi(${1:x})]]></content>
+	<tabTrigger>cospi</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

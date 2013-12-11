@@ -1,0 +1,6 @@
+<snippet>
+	<description>Next Float After x In Direction y</description>
+	<content><![CDATA[nextafter(${1:x}, ${2:y})]]></content>
+	<tabTrigger>nextafter</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

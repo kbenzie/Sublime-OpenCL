@@ -1,0 +1,6 @@
+<snippet>
+	<description>Hyperbolic Cosine</description>
+	<content><![CDATA[cosh(${1:x})]]></content>
+	<tabTrigger>cosh</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Compute x To The Power 1/y</description>
+	<content><![CDATA[rootn(${1:x}, ${2:y})]]></content>
+	<tabTrigger>rootn</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

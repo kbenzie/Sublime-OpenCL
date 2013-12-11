@@ -1,0 +1,6 @@
+<snippet>
+	<description>Base 2 Exponent Of x</description>
+	<content><![CDATA[half_exp2(${1:x})]]></content>
+	<tabTrigger>halg_exp2</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

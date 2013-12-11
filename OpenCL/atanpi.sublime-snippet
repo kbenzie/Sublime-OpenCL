@@ -1,0 +1,6 @@
+<snippet>
+	<description>Arc Tangent Over Pi</description>
+	<content><![CDATA[atanpi(${1:x})]]></content>
+	<tabTrigger>atanpi</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

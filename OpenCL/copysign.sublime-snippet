@@ -1,0 +1,6 @@
+<snippet>
+	<description>X With The Sign Of Y</description>
+	<content><![CDATA[copysign(${1:x}, ${2:y})]]></content>
+	<tabTrigger>copysign</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

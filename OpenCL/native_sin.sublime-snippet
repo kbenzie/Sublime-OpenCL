@@ -1,0 +1,6 @@
+<snippet>
+	<description>Sine</description>
+	<content><![CDATA[native_sin(${1:x})]]></content>
+	<tabTrigger>native_sin</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

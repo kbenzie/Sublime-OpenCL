@@ -1,0 +1,6 @@
+<snippet>
+	<description>Inverse Square Root</description>
+	<content><![CDATA[native_rsqrt(${1:x})]]></content>
+	<tabTrigger>native_rsqrt</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

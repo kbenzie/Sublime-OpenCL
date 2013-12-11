@@ -1,0 +1,6 @@
+<snippet>
+	<description>Natural Logarithm Of 1.0 + x</description>
+	<content><![CDATA[log1p(${1:x})]]></content>
+	<tabTrigger>log1p</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

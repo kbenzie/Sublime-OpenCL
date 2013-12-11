@@ -1,0 +1,6 @@
+<snippet>
+	<description>Modulus</description>
+	<content><![CDATA[fmod(${1:x}, 4{2:y})]]></content>
+	<tabTrigger>fmod</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+ <snippet>
+ 	<description>e ^ x - 1.0</description>
+ 	<content><![CDATA[expm1(${1:x})]]></content>
+ 	<tabTrigger>expm1</tabTrigger>
+ 	<scope>source.opencl</scope>
+ </snippet>

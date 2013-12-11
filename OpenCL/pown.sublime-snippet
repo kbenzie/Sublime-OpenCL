@@ -1,0 +1,6 @@
+<snippet>
+	<description>x To The Power Integer y</description>
+	<content><![CDATA[pown(${1:x}, ${2:y})]]></content>
+	<tabTrigger>pown</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

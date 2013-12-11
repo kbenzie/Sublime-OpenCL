@@ -1,0 +1,6 @@
+<snippet>
+	<description>Hyperbolic Tangent</description>
+	<content><![CDATA[tanh(${1:x})]]></content>
+	<tabTrigger>tanh</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

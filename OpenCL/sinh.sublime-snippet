@@ -1,0 +1,6 @@
+<snippet>
+	<description>Hyperbolic Sine</description>
+	<content><![CDATA[sinh(${1:x})]]></content>
+	<tabTrigger>sinh</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

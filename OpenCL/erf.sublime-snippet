@@ -1,0 +1,6 @@
+<snippet>
+	<description>Error Function</description>
+	<content><![CDATA[erf(${1:x})]]></content>
+	<tabTrigger>erf</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

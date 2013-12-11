@@ -1,0 +1,6 @@
+<snippet>
+	<description>Approximates a * b + c</description>
+	<content><![CDATA[mad(${1:a}, ${2:b}, ${3:c})]]></content>
+	<tabTrigger>mad</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Float Remainder Quotient</description>
+	<content><![CDATA[remquo(${1:x}, ${2:y}, &${3:quo})]]></content>
+	<tabTrigger>remquo</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

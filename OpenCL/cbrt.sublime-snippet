@@ -1,0 +1,6 @@
+<snippet>
+	<description>Cube-Root</description>
+	<content><![CDATA[cbrt(${1:x})]]></content>
+	<tabTrigger>cbrt</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

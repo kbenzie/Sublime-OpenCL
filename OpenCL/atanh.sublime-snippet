@@ -1,0 +1,6 @@
+<snippet>
+	<description>Hyperbolic Arg Tangent</description>
+	<content><![CDATA[atanh(${1:x})]]></content>
+	<tabTrigger>atanh</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

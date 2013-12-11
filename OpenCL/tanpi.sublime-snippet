@@ -1,0 +1,6 @@
+<snippet>
+	<description>Tangent Pi * x</description>
+	<content><![CDATA[tanpi(${1:x})]]></content>
+	<tabTrigger>tanpi</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Gamma Function</description>
+	<content><![CDATA[tgamma(${1:x})]]></content>
+	<tabTrigger>tgamma</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Compementary Error Function</description>
+	<content><![CDATA[erfc(${1:x})]]></content>
+	<tabTrigger>erfc</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

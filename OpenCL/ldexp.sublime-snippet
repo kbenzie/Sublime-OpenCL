@@ -1,0 +1,6 @@
+<snippet>
+	<description>Multiply x By 2 To The Power k</description>
+	<content><![CDATA[ldexp(${1:x}, ${2:k})]]></content>
+	<tabTrigger>ldexp</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

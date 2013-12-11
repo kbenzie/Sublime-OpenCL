@@ -1,0 +1,6 @@
+<snippet>
+	<description>Round To Integer Toward - Infinity</description>
+	<content><![CDATA[floor(${1:x})]]></content>
+	<tabTrigger>floor</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

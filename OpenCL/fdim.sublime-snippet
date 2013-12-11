@@ -1,0 +1,6 @@
+<snippet>
+	<description>Positive Difference Between x And y</description>
+	<content><![CDATA[fdim(${1:x}, ${2:y})]]></content>
+	<tabTrigger>fdim</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

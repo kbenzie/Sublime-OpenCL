@@ -1,0 +1,6 @@
+<snippet>
+	<description>Returns The Greater Of x And y</description>
+	<content><![CDATA[fmax(${1:x}, ${2:y})]]></content>
+	<tabTrigger>fmax</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

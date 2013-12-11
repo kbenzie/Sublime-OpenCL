@@ -1,0 +1,6 @@
+<snippet>
+	<description>Round To Nearest Even Integer</description>
+	<content><![CDATA[rint(${1:x})]]></content>
+	<tabTrigger>rint</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

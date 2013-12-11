@@ -1,0 +1,6 @@
+<snippet>
+	<description>Float Absolute Value</description>
+	<content><![CDATA[fabs(${1:x})]]></content>
+	<tabTrigger>fabs</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>
