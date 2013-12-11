@@ -1,0 +1,6 @@
+<snippet>
+	<description>Fast Length</description>
+	<content><![CDATA[fast_length(${1:p})]]></content>
+	<tabTrigger>fast_length</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

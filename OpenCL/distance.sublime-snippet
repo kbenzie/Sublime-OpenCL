@@ -1,0 +1,6 @@
+<snippet>
+	<description>Distance</description>
+	<content><![CDATA[distance(${1:p0}, ${2:p1})]]></content>
+	<tabTrigger>distance</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

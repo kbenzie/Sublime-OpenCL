@@ -1,0 +1,6 @@
+<snippet>
+	<description>Dot Product</description>
+	<content><![CDATA[dot(${1:p0}, ${2:p1})]]></content>
+	<tabTrigger>dot</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

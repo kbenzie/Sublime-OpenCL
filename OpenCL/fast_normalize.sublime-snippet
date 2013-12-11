@@ -1,0 +1,6 @@
+<snippet>
+	<description>Fast Normalize</description>
+	<content><![CDATA[fast_normalize(${1:p})]]></content>
+	<tabTrigger>fast_normalize</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

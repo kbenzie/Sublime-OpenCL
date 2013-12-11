@@ -1,0 +1,6 @@
+<snippet>
+	<description>Normalize</description>
+	<content><![CDATA[normalize(${1:p})]]></content>
+	<tabTrigger>normalize</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

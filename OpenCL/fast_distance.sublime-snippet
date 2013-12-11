@@ -1,0 +1,6 @@
+<snippet>
+	<description>Fast Distance</description>
+	<content><![CDATA[fast_distance(${1:p0}, ${2:p1})]]></content>
+	<tabTrigger>fast_distance</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Length</description>
+	<content><![CDATA[length(${1:p})]]></content>
+	<tabTrigger>length</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>
