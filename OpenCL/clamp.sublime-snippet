@@ -1,0 +1,6 @@
+<snippet>
+	<description>Clamp</description>
+	<content><![CDATA[clamp(${1:x}, ${2:minval}, ${3:maxval})]]></content>
+	<tabTrigger>clamp</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

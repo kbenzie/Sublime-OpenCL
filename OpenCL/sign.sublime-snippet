@@ -1,0 +1,6 @@
+<snippet>
+	<description>Sing</description>
+	<content><![CDATA[sign(${1:x})]]></content>
+	<tabTrigger>sign</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

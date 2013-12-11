@@ -1,0 +1,6 @@
+<snippet>
+	<description>Smooth Step</description>
+	<content><![CDATA[smoothstep(${1:edge0}, ${2:edge1}, ${3:x})]]></content>
+	<tabTrigger>smoothstep</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

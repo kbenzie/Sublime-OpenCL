@@ -1,0 +1,6 @@
+<snippet>
+	<description>Maximum</description>
+	<content><![CDATA[max(${1:x}, ${2:y})]]></content>
+	<tabTrigger>max</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

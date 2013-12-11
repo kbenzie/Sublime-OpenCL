@@ -1,0 +1,6 @@
+<snippet>
+	<description>Radians</description>
+	<content><![CDATA[radians(${1:degress})]]></content>
+	<tabTrigger>radians</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

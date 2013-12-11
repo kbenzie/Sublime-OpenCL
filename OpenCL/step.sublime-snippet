@@ -1,0 +1,6 @@
+<snippet>
+	<description>Step</description>
+	<content><![CDATA[step(${1:edge}, ${2:x})]]></content>
+	<tabTrigger>step</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>
