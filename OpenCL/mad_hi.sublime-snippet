@@ -1,0 +1,6 @@
+<snippet>
+	<description>Returns mul_hi(a, g) + c</description>
+	<content><![CDATA[mad_hi(mul_hi(${1:a}, ${2:b}, ${3:c}))]]></content>
+	<tabTrigger>mad_hi</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

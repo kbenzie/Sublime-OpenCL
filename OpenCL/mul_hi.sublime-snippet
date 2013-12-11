@@ -1,0 +1,6 @@
+<snippet>
+	<description>Returns High Half of Product</description>
+	<content><![CDATA[mul_hi(${1:x}, ${2:y})]]></content>
+	<tabTrigger>mul_hi</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

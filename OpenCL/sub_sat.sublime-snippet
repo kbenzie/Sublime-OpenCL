@@ -1,0 +1,6 @@
+<snippet>
+	<description>Return x -y and Saturates</description>
+	<content><![CDATA[sub_sat(${1:x}, ${2:y})]]></content>
+	<tabTrigger>sub_sat</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

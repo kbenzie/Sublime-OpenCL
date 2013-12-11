@@ -1,0 +1,6 @@
+<snippet>
+	<description>Number of Non-zero Bits</description>
+	<content><![CDATA[popcount(${1:x})]]></content>
+	<tabTrigger>popcount</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

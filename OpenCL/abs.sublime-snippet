@@ -1,0 +1,6 @@
+<snippet>
+	<description>Absolute</description>
+	<content><![CDATA[abs(${1:x})]]></content>
+	<tabTrigger>abs</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>hadd (x + y) >> 1</description>
+	<content><![CDATA[hadd(${1:x}, ${2:y})]]></content>
+	<tabTrigger>hadd</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

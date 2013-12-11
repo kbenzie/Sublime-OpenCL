@@ -1,0 +1,6 @@
+<snippet>
+	<description>Minimum</description>
+	<content><![CDATA[min(${1:x}, ${2:y})]]></content>
+	<tabTrigger>min</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

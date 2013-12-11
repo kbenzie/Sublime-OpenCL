@@ -1,0 +1,6 @@
+<snippet>
+	<description>Fast Integer Multiply</description>
+	<content><![CDATA[mul24(${1:x}, ${2:y})]]></content>
+	<tabTrigger>mul24</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

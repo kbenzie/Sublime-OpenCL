@@ -1,0 +1,6 @@
+<snippet>
+	<description>Add Saturate</description>
+	<content><![CDATA[add_sat(${1:x}, ${2:y})]]></content>
+	<tabTrigger>add_sat</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

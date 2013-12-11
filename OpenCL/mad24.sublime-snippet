@@ -1,0 +1,6 @@
+<snippet>
+	<description>Fast Multiply Add</description>
+	<content><![CDATA[mad24(${1:x}, ${2:y}, ${3:z})]]></content>
+	<tabTrigger>mad24</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Upsample</description>
+	<content><![CDATA[upsample(${1:hi}, ${2:lo})]]></content>
+	<tabTrigger>upsample</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Count Leading Zero's</description>
+	<content><![CDATA[clz(${1:x})]]></content>
+	<tabTrigger>clz</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>
