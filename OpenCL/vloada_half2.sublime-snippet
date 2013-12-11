@@ -1,0 +1,6 @@
+<snippet>
+	<description>Read A Half Float Vector From A Pointer</description>
+	<content><![CDATA[vloada_half2(${1:offset}, ${2:ptr})]]></content>
+	<tabTrigger>vloada_half2</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

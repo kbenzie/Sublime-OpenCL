@@ -1,0 +1,6 @@
+<snippet>
+	<description>Read Vectors From A Pointer</description>
+	<content><![CDATA[vload16(${1:offset}, ${2:ptr})]]></content>
+	<tabTrigger>vload16</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>
