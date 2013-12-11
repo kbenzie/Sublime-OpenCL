@@ -1,0 +1,6 @@
+<snippet>
+	<description>Test For Infiniy Value</description>
+	<content><![CDATA[isinf(${1:x})]]></content>
+	<tabTrigger>isinf</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

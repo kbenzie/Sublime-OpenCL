@@ -1,0 +1,6 @@
+<snippet>
+	<description>Test For Finite Value</description>
+	<content><![CDATA[isfinite(${1:x})]]></content>
+	<tabTrigger>isfinite</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

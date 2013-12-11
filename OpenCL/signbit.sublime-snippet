@@ -1,0 +1,6 @@
+<snippet>
+	<description>Test For Sign Bit</description>
+	<content><![CDATA[signbit(${1:x})]]></content>
+	<tabTrigger>signbit</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

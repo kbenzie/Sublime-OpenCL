@@ -1,0 +1,6 @@
+<snippet>
+	<description>Compare x > y</description>
+	<content><![CDATA[isgreater(${1:x}, ${2:y})]]></content>
+	<tabTrigger>isgreater</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

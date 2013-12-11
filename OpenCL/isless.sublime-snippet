@@ -1,0 +1,6 @@
+<snippet>
+	<description>Compare x &lt y</description>
+	<content><![CDATA[isless(${1:x}, ${2:y})]]></content>
+	<tabTrigger>isless</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

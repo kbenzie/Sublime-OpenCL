@@ -1,0 +1,6 @@
+<snippet>
+	<description>Test For A NaN</description>
+	<content><![CDATA[isnan(${1:x})]]></content>
+	<tabTrigger>isnan</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Bit Select</description>
+	<content><![CDATA[bitselect(${1:a}, ${2:b}, ${3:c})]]></content>
+	<tabTrigger>bitselect</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

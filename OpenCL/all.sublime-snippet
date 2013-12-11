@@ -1,0 +1,6 @@
+<snippet>
+	<description>Test For All Most Significant Bits Are Set</description>
+	<content><![CDATA[all(${1:x})]]></content>
+	<tabTrigger>all</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

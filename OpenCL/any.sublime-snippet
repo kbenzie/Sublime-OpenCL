@@ -1,0 +1,6 @@
+<snippet>
+	<description>Returns 1 Any Most Significant Bit Is Set</description>
+	<content><![CDATA[any(${1:x})]]></content>
+	<tabTrigger>any</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

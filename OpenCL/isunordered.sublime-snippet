@@ -1,0 +1,6 @@
+<snippet>
+	<description>Test If Arguments Are Unordered</description>
+	<content><![CDATA[isunordered(${1:x}, ${2:y})]]></content>
+	<tabTrigger>isunordered</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Compare x != y</description>
+	<content><![CDATA[isnotequal(${1:x}, ${2:y})]]></content>
+	<tabTrigger>isnotequal</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Test For A Normal Value</description>
+	<content><![CDATA[isnormal(${1:x})]]></content>
+	<tabTrigger>isnormal</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

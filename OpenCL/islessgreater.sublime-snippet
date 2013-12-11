@@ -1,0 +1,6 @@
+<snippet>
+	<description>Compare (x &lt y) || (x > y)</description>
+	<content><![CDATA[islessgreater(${1:x}, ${2:y})]]></content>
+	<tabTrigger>islessgreater</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>
