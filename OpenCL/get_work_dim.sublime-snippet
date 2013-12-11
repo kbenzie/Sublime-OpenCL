@@ -1,0 +1,6 @@
+<snippet>
+	<description>Return Number Of Dimensions In Use</description>
+	<content><![CDATA[get_work_dim()]]></content>
+	<tabTrigger>get_work_dim</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Returns Work-Group ID</description>
+	<content><![CDATA[get_group_id(${1:dimindx})]]></content>
+	<tabTrigger>get_group_id</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

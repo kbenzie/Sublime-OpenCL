@@ -1,0 +1,6 @@
+<snippet>
+	<description>Returns Number Of Work-Groups</description>
+	<content><![CDATA[get_num_groups(${1:dimindx})]]></content>
+	<tabTrigger>get_num_groups</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

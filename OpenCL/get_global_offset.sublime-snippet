@@ -1,0 +1,6 @@
+<snippet>
+	<description>Returns Offset Values</description>
+	<content><![CDATA[get_global_offset(${1:dimindx})]]></content>
+	<tabTrigger>get_global_offset</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Returns Unique Local Work-Item ID</description>
+	<content><![CDATA[get_local_id(${1:dimindx})]]></content>
+	<tabTrigger>get_local_id</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>
