@@ -1,0 +1,6 @@
+<snippet>
+	<description>Perform An Async Copy</description>
+	<content><![CDATA[async_work_group_copy(${1:dst}, ${2:src}, ${3:num_gentypes}, ${4:event})]]></content>
+	<tabTrigger>async_work_group_copy</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

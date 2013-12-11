@@ -1,0 +1,6 @@
+<snippet>
+	<description>Prefetch Bytes Into Global Cache</description>
+	<content><![CDATA[prefetch(${1:ptr}, ${2:num_gentypes})]]></content>
+	<tabTrigger>prefetch</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Performs An Async Gather Of Elements</description>
+	<content><![CDATA[async_work_group_strided_copy(${1:dst}, ${2:src}, ${3:num_gentypes}, ${4:src_stride}, ${5:event})]]></content>
+	<tabTrigger>async_work_group_strided_copy</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

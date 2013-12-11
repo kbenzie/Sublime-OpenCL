@@ -1,0 +1,6 @@
+<snippet>
+	<description>Waits For Events</description>
+	<content><![CDATA[wait_group_events(${1:num_events}, ${2:event_list})]]></content>
+	<tabTrigger>wait_group_events</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>
