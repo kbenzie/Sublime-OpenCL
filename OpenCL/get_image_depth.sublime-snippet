@@ -1,0 +1,6 @@
+<snippet>
+	<description>Returns Image Depth In Pixels</description>
+	<content><![CDATA[get_image_depth(${1:image})]]></content>
+	<tabTrigger>get_image_depth</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

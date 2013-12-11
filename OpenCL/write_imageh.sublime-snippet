@@ -1,0 +1,6 @@
+<snippet>
+	<description>Write Color To Image Half Float</description>
+	<content><![CDATA[write_imageh(${1:image}, ${2:coord}, ${3:color})]]></content>
+	<tabTrigger>write_imageh</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

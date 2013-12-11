@@ -1,0 +1,6 @@
+<snippet>
+	<description>Write Color To Image Integer</description>
+	<content><![CDATA[write_imagei(${1:image}, ${2:coord}, ${3:color})]]></content>
+	<tabTrigger>write_imagei</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

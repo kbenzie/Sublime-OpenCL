@@ -1,0 +1,6 @@
+<snippet>
+	<description>Returns Image Height In Pixels</description>
+	<content><![CDATA[get_image_height(${1:image})]]></content>
+	<tabTrigger>get_image_height</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

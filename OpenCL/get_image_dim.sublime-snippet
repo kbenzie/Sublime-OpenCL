@@ -1,0 +1,6 @@
+<snippet>
+	<description>Returns Image Dimensions</description>
+	<content><![CDATA[get_image_dim(${1:image})]]></content>
+	<tabTrigger>get_image_dim</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>
