@@ -1,0 +1,6 @@
+<snippet>
+	<description>Returns Number Of Elements In a</description>
+	<content><![CDATA[vec_step(${1:a})]]></content>
+	<tabTrigger>vec_step</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

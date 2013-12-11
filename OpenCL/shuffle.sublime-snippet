@@ -1,0 +1,6 @@
+<snippet>
+	<description>Constructs Permutation Of Elements From A Vector</description>
+	<content><![CDATA[suffle(${1:x}, ${2:mask})]]></content>
+	<tabTrigger>shuffle</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

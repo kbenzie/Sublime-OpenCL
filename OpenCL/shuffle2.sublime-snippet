@@ -1,0 +1,6 @@
+<snippet>
+	<description>Constructs A Permutation Of Elements From Two Vectors</description>
+	<content><![CDATA[shuffle2(${1:x}, ${2:y}, ${3:mask})]]></content>
+	<tabTrigger>shuffle2</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>
