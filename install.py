@@ -34,21 +34,23 @@ def install_package(package_path, install_path):
 
 # Function searches for sublime data directory the calls install_package()
 def find_sublime_dir_install(config_dir, sublime_text_dir, spacer):
+	result = False
 	if os.path.exists(config_dir):
 		# Test for Sublime Text config directory
-		if install_package(archive_path, os.path.join(os.path.join(config_dir, sublime_text_dir), "Installed Packages")):
-			return True
+		result |= install_package(archive_path, os.path.join(os.path.join(config_dir, sublime_text_dir), "Installed Packages"))
+			
 		# Test for Sublime Text 2 config directory
-		if install_package(archive_path, os.path.join(os.path.join(config_dir, sublime_text_dir + spacer + "2"), "Installed Packages")):
-			return True
+		result |= install_package(archive_path, os.path.join(os.path.join(config_dir, sublime_text_dir + spacer + "2"), "Installed Packages"))
+
 		# Test for Sublime Text 3 config directory
-		if install_package(archive_path, os.path.join(os.path.join(config_dir, sublime_text_dir + spacer + "3"), "Installed Packages")):
-			return True
-	return False
+		result |= install_package(archive_path, os.path.join(os.path.join(config_dir, sublime_text_dir + spacer + "3"), "Installed Packages"))
+
+	return result
 
 # Determine operating system
 platform_info = platform.platform()
 # print(platform_info)
+
 installed = False
 if "Linux" in platform_info:
 	# Determine is config directory exists and install
@@ -62,10 +64,10 @@ elif "Windows" in platform_info:
 	print("APPDATA: "  + app_data_path)
 	installed = find_sublime_dir_install(app_data_path, "Sublime Text", " ")
 
-elif "OSX" in platform_info:
+elif "Darwin" in platform_info:
 	# Determine is config directory exists and install
 	# todo testing required
-	installed = find_sublime_dir_install(os.path.expanduser("~/Library/Application Support"), "Installed Packages", " ")
+	installed = find_sublime_dir_install(os.path.expanduser("~/Library/Application Support"), "Sublime Text", " ")
 
 if not installed:
 	print(archive_name + " was not installed, please install manually")
