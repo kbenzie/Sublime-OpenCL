@@ -100,7 +100,7 @@
 		"write_only",
 		"__write_only",
 		/* Function Qualifiers */
-		"kernel",
+		// "kernel",
 		"__kernel",
 		// "__attribute__((vec_type_hint(<typen>)))",
 		// "__attribute__((work_group_size_hint(X, Y, Z)))",

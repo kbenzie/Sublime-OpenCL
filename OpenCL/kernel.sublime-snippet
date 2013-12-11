@@ -1,0 +1,9 @@
+<snippet>
+	<description>Kernel Function</description>
+	<content><![CDATA[kernel void ${1:foo}(${2:arguments})
+{
+	${0:/* code */}
+}]]></content>
+	<tabTrigger>kernel</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>
