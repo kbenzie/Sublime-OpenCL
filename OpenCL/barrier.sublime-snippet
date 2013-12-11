@@ -1,0 +1,6 @@
+<snippet>
+	<description>All Work Items Must Execute Barrier Funcion Before Execution Continues</description>
+	<content><![CDATA[barrier(${1:flags})]]></content>
+	<tabTrigger>barrier</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>
