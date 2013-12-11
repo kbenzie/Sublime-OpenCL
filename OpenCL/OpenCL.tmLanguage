@@ -4,7 +4,6 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>cl</string>
 		<string>opencl</string>
 	</array>
 	<key>foldingStartMarker</key>
@@ -104,7 +103,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b((__)?(kernel|global|local|private|constant)|(kernel|global|local|private|constant)|__attribute__)\b</string>
+			<string>\b((kernel|global|local|private|constant)|(__)?(kernel|global|local|private|constant)|__attribute__)\b</string>
 			<key>name</key>
 			<string>keyword.address-space.opencl</string>
 		</dict>
