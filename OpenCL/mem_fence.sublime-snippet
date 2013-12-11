@@ -1,0 +1,6 @@
+<snippet>
+	<description>Mem Fence</description>
+	<content><![CDATA[mem_fence(${1:flags})]]></content>
+	<tabTrigger>mem_fence</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>
