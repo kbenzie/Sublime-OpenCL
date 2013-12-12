@@ -1,0 +1,6 @@
+<snippet>
+	<description>Edian Attribute</description>
+	<content><![CDATA[endian($1)]]></content>
+	<tabTrigger>endian</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

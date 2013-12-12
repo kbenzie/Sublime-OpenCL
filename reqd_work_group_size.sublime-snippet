@@ -1,0 +1,6 @@
+<snippet>
+	<description>Work Group Size Hint</description>
+	<content><![CDATA[work_group_size_hint(${1:x}, ${2:y}, ${3:z})]]></content>
+	<tabTrigger>work_group_size_hint</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

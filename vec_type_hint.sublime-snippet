@@ -1,0 +1,6 @@
+<snippet>
+	<description>Vector Type Hint</description>
+	<content><![CDATA[vec_type_hint(${1:type})]]></content>
+	<tabTrigger>vec_type_hint</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

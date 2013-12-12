@@ -1,0 +1,6 @@
+<snippet>
+	<description>Attribute Qualifer</description>
+	<content><![CDATA[__attribute__ (($1))]]></content>
+	<tabTrigger>__attribute__</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Attribute Aligned</description>
+	<content><![CDATA[aligned ($1)]]></content>
+	<tabTrigger>aligned</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>
