@@ -1,8 +1,0 @@
-<snippet>
-	<description>Switch Case Statement</description>
-	<content><![CDATA[case ${1:value}:
-	${2:/* code */}
-	break;]]></content>
-	<tabTrigger>case</tabTrigger>
-	<scope>source.c, source.objc, source.c++, source.objc++</scope>
-</snippet>

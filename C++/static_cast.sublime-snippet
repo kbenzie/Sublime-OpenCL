@@ -1,6 +1,0 @@
-<snippet>
-	<description>Static Cast</description>
-	<content><![CDATA[static_cast<${1:T}*>(${2:pointer})]]></content>
-	<tabTrigger>static_cast</tabTrigger>
-	<scope>source.c++, source.objc++</scope>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-	<description>Include Header</description>
-    <content><![CDATA[#include ${1:"}${2:${TM_FILENAME/\..+$/.h/}}${1/</>/g}]]></content>
-    <tabTrigger>include</tabTrigger>
-    <scope>source.c, source.objc, source.c++, source.objc++</scope>
-</snippet>

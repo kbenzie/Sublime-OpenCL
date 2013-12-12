@@ -1,9 +1,0 @@
-<snippet>
-	<description>Union Definition</description>
-	<content><![CDATA[union ${1:name}
-{
-	${2:/* data */}
-}$3;]]></content>
-	<tabTrigger>union</tabTrigger>
-	<scope>source.c++, source.objc++</scope>
-</snippet>

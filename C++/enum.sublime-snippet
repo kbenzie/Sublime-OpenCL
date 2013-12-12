@@ -1,9 +1,0 @@
-<snippet>
-	<description>Enum Definition</description>
-	<content><![CDATA[enum ${1:name}
-{
-	${2:/* values */}
-};]]></content>
-	<tabTrigger>enum</tabTrigger>
-	<scope>source.c++, source.objc++</scope>
-</snippet>

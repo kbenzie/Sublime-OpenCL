@@ -1,6 +1,0 @@
-<snippet>
-	<description>Type Identifier</description>
-	<content><![CDATA[typeid($1)]]></content>
-	<tabTrigger>typeid</tabTrigger>
-	<scope>source.c++, source.objc++</scope>
-</snippet>

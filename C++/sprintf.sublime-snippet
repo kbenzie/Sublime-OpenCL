@@ -1,6 +1,0 @@
-<snippet>
-	<description>String Print Function</description>
-	<content><![CDATA[sprintf(${1:cstring}, "${2:%s}\\n"${2/([^%]|%%)*(%.)?.*/(?2:, :\);)/}$3${2/([^%]|%%)*(%.)?.*/(?2:\);)/}]]></content>
-	<tabTrigger>sprintf</tabTrigger>
-	<scope>source.c, source.c++, source.objc, source.objc++</scope>
-</snippet>

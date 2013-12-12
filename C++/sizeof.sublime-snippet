@@ -1,6 +1,0 @@
-<snippet>
-	<description>Sizeof Operator</description>
-	<content><![CDATA[sizeof($1)]]></content>
-	<tabTrigger>sizeof</tabTrigger>
-	<scope>source.c, source.c++, source.objc, source.objc++</scope>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-	<description>Template Definition</description>
-	<content><![CDATA[template<typename ${1:T}> $0]]></content>
-	<tabTrigger>template</tabTrigger>
-	<scope>source.c++, source.objc++</scope>
-</snippet>

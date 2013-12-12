@@ -1,6 +1,0 @@
-<snippet>
-	<description>std::vector</description>
-	<content><![CDATA[std::vector<${1:char}> ${2:v};]]></content>
-	<tabTrigger>vector</tabTrigger>
-	<scope>source.c++, source.objc++</scope>
-</snippet>

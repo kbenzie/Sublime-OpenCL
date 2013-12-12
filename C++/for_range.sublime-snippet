@@ -1,9 +1,0 @@
-<snippet>
-	<description>Range For Loop</description>
-	<content><![CDATA[for(auto ${1:element} : ${2:container})
-{
-	${0:/* code */}
-}]]></content>
-	<tabTrigger>forr</tabTrigger>
-	<scope>source.c++, source.objc++</scope>
-</snippet>

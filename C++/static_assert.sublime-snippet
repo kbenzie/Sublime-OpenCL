@@ -1,6 +1,0 @@
-<snippet>
-	<description>Static Assert</description>
-	<content><![CDATA[static_assert(${1:condition}, "${2:message}");]]></content>
-	<tabTrigger>static_assert</tabTrigger>
-	<scope>source.c++, source.objc++</scope>
-</snippet>

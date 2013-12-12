@@ -1,6 +1,0 @@
-<snippet>
-	<description>Const Cast</description>
-	<content><![CDATA[const_cast<${1:T}*>(${2:pointer})]]></content>
-	<tabTrigger>const_cast</tabTrigger>
-	<scope>source.c++, source.objc++</scope>
-</snippet>
