@@ -1,0 +1,6 @@
+<snippet>
+	<description>Get List Of Platforms Available</description>
+	<content><![CDATA[clGetPlatformIDs(${1:num_entries}, ${2:platforms}, ${3:num_platforms})]]></content>
+	<tabTrigger>clGetPlatformIDs</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>
