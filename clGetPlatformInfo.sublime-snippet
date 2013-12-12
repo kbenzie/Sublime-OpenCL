@@ -1,0 +1,6 @@
+<snippet>
+	<description>Get Information About OpenCL Platform</description>
+	<content><![CDATA[clGetPlatformInfo(${1:platform}, ${2:param_name}, ${3:param_value_size}, ${4:param_value}, ${param_value_size_ret})]]></content>
+	<tabTrigger>clGetPlatformInfo</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>
