@@ -1,0 +1,6 @@
+<snippet>
+	<description>Creates An OpenCL Context</description>
+	<content><![CDATA[clCreateContext(${1:properties}, ${2:num_devices}, ${3:devices}, ${4:pfn_notify}, ${5:user_data}, ${6:errcode_ret})]]></content>
+	<tabTrigger>clCreateContext</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

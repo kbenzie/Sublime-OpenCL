@@ -1,0 +1,6 @@
+<snippet>
+	<description>Query Information About A Context</description>
+	<content><![CDATA[clGetContextInfo(${1:context}, ${2:param_name}, ${3:param_value_size}, ${4:param_value}, ${5:param_value_size_ret})]]></content>
+	<tabTrigger>clGetContextInfo</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

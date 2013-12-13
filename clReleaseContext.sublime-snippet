@@ -1,0 +1,6 @@
+<snippet>
+	<description>Decremenet The Context Reference Count</description>
+	<content><![CDATA[clReleaseContext(${1:context})]]></content>
+	<tabTrigger>clReleaseContext</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

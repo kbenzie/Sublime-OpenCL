@@ -1,0 +1,6 @@
+<snippet>
+	<description>Increment The Context Reference Count</description>
+	<content><![CDATA[clRetainContext(${1:context})]]></content>
+	<tabTrigger>clRetainContext</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>
