@@ -1,0 +1,6 @@
+<snippet>
+	<description>Decrements The Device Reference Count</description>
+	<content><![CDATA[clReleaseDevice(${1:device})]]></content>
+	<tabTrigger>clReleaseDevice</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Obtain List Of Devices Available</description>
+	<content><![CDATA[clGetDeviceIDs(${1:platform}, ${2:device_type}, ${3:num_entries}, ${4:devices}, ${5:num_devices})]]></content>
+	<tabTrigger>clGetDeviceIDs</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

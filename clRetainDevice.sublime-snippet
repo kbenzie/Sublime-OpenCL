@@ -1,0 +1,6 @@
+<snippet>
+	<description>Incremenets The Devices Reference Count</description>
+	<content><![CDATA[clRetainDevice(${1:device})]]></content>
+	<tabTrigger>clRetainDevice</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

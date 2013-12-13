@@ -1,0 +1,6 @@
+<snippet>
+	<description>Creates An Array Of Sub-Devices</description>
+	<content><![CDATA[clCreateSubDevices(${1:in_device}, ${2:properties}, ${3:num_devices}, ${4:out_devices}, ${5:num_devices_ret})]]></content>
+	<tabTrigger>clCreateSubDevices</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>
