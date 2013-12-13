@@ -1,0 +1,6 @@
+<snippet>
+	<description>Incremenets The Sampler Reference Count</description>
+	<content><![CDATA[clRetainSampler(${1:sampler})]]></content>
+	<tabTrigger>clRetainSampler</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Creates A Sampler Object</description>
+	<content><![CDATA[clCreateSampler(${1:context}, ${2:normalized_coords}, ${3:addressing_mode}, ${4:filter_mode}, ${5:errcode_ret})]]></content>
+	<tabTrigger>clCreateSampler</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

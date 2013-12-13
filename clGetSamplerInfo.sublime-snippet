@@ -1,0 +1,6 @@
+<snippet>
+	<description>Returns Information About The Sampler Object</description>
+	<content><![CDATA[clGetSamplerInfo(${1:sampler}, ${2:param_name}, ${3:param_value_size}, ${4:param_value}, ${5:param_value_size_ret})]]></content>
+	<tabTrigger>clGetSamplerInfo</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

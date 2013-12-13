@@ -1,0 +1,6 @@
+<snippet>
+	<description>Decrements The Sampler Reference Count</description>
+	<content><![CDATA[clReleaseSampler(${1:sampler})]]></content>
+	<tabTrigger>clReleaseSampler</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>
