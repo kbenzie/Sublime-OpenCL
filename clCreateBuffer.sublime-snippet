@@ -1,0 +1,6 @@
+<snippet>
+	<description>Creates A Buffer Object</description>
+	<content><![CDATA[clCreateBuffer(${1:context}, ${2:flags}, ${3:size}, ${4:host_ptr}, ${5:errcode_ret})]]></content>
+	<tabTrigger>clCreateBuffer</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Get The List Of Supported Image Formats</description>
+	<content><![CDATA[clGetSupportedImageFormats(${1:context}, ${2:flags}, ${3:image_type}, ${4:num_entries}, ${5:image_formats}, ${6:num_image_formats})]]></content>
+	<tabTrigger>clGetSupportedImageFormats</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

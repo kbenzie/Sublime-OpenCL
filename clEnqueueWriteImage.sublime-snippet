@@ -1,0 +1,6 @@
+<snippet>
+	<description>Enqueues A Command To Write To An Image Or Image Array From Host Memory</description>
+	<content><![CDATA[clEnqueueWriteImage(${1:command_queue}, ${2:image}, ${3:blocking_write}, ${4:origin}, ${5:region}, ${6:input_row_pitch}, ${7:input_slice_pitch}, ${8:ptr}, ${9:num_events_in_wait_list}, ${10:event_wait_list}, ${11:event})]]></content>
+	<tabTrigger>clEnqueueWriteImage</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

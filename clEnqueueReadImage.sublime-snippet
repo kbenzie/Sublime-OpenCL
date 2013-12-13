@@ -1,0 +1,6 @@
+<snippet>
+	<description>Enqueue Commands To Read From An Image Or Image Array To Host Memory</description>
+	<content><![CDATA[clEnqueueReadImage(${1:command_queue}, ${2:image}, ${3:blocking_read}, ${4:origin}, ${5:region}, ${6:row_pitch}, ${7:slice_pitch}, ${8:ptr}, ${9:num_events_in_wait_list}, ${10:event_wait_list}, ${11:event})]]></content>
+	<tabTrigger>clEnqueueReadImage</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

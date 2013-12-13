@@ -1,0 +1,6 @@
+<snippet>
+	<description>Enqueues A Command To Copy From One Buffer To Another</description>
+	<content><![CDATA[clEnqueueCopyBuffer(${1:command_queue}, ${2:src_buffer}, ${3:dst_buffer}, ${4:src_offset}, ${5:dst_offset}, ${6:size}, ${7:num_events_in_wait_list}, ${8:event_wait_list}, ${9:event})]]></content>
+	<tabTrigger>clEnqueueCopyBuffer</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

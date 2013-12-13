@@ -1,0 +1,6 @@
+<snippet>
+	<description>Enqueues A Command To Map A Region Of The Buffer To Host Address Space</description>
+	<content><![CDATA[clEnqueueMapBuffer(${1:command_queue}, ${2:buffer}, ${3:blocking_map}, ${4:map_flags}, ${5:offset}, ${6:size}, ${7:num_events_in_wait_list}, ${8:event_wait_list}, ${9:event}, ${10:errcode_ret})]]></content>
+	<tabTrigger>clEnqueueMapBuffer</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

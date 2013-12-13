@@ -1,0 +1,6 @@
+<snippet>
+	<description>Enqueues A Command To Map A Image Region To Host Address Space</description>
+	<content><![CDATA[clEnqueueMapImage(${1:command_queue}, ${2:image}, ${3:blocking_map}, ${4:map_flags}, ${5:origin}, ${6:region}, ${7:image_row_pitch}, ${8:image_slice_pitch}, ${9:num_events_in_wait_list}, ${10:event_wait_list}, ${11:event}, ${12:errcode_ret})]]></content>
+	<tabTrigger>clEnqueueMapImage</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

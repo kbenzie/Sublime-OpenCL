@@ -1,0 +1,6 @@
+<snippet>
+	<description>Incremenets The Memory Object Reference Count</description>
+	<content><![CDATA[clRetainMemObject(${1:memobj})]]></content>
+	<tabTrigger>clRetainMemObject</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Enqueue Commands To Write From Host Memory To Buffer</description>
+	<content><![CDATA[clEnqueueWriteBuffer(${1:command_queue}, ${2:buffer}, ${3:blocking_write}, ${4:offset}, ${5:size}, ${6:ptr}, ${7:num_events_in_wait_list}, ${8:event_wait_list}, ${9:event})]]></content>
+	<tabTrigger>clEnqueueWriteBuffer</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

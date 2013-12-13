@@ -1,0 +1,6 @@
+<snippet>
+	<description>Enqueues A Command To Fill An Image With A Specified Color</description>
+	<content><![CDATA[clEnqueueFillImage(${1:command_queue}, ${2:image}, ${3:fill_color}, ${4:origin}, ${5:region}, ${6:num_events_in_wait_list}, ${7:event_wait_list}, ${8:event})]]></content>
+	<tabTrigger>clEnqueueFillImage</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

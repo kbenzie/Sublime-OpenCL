@@ -1,0 +1,6 @@
+<snippet>
+	<description>Decremenets The Memory Object Reference Count</description>
+	<content><![CDATA[clReleaseMemObject(${1:memobj})]]></content>
+	<tabTrigger>clReleaseMemObject</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

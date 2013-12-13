@@ -1,0 +1,6 @@
+<snippet>
+	<description>Enqueues A Command To Indicate Which Device A Set Of Memory Objects Should Be Associated</description>
+	<content><![CDATA[clEnqueueMigrateMemObjects(${1:commang_queue}, ${2:num_mem_objects}, ${3:mem_objects}, ${4:flags}, ${5:num_events_in_wait_list}, ${6:event_wait_list}, ${7:event})]]></content>
+	<tabTrigger>clEnqueueMigrateMemObjects</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

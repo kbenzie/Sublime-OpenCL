@@ -1,0 +1,6 @@
+<snippet>
+	<description>Enqueues A Command To Unmap Previously Mapped Region Of Memory</description>
+	<content><![CDATA[clEnqueueUnmapMemObject(${1:command_queue}, ${2:memobj}, ${3:mapped_ptr}, ${4:num_events_in_wait_list}, ${5:event_wait_list}, ${6:event})]]></content>
+	<tabTrigger>clEnqueueUnmapMemObject</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

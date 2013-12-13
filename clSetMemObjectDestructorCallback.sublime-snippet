@@ -1,0 +1,6 @@
+<snippet>
+	<description>Registers A User Callback Function With A Memory Object</description>
+	<content><![CDATA[clSetMemObjectDestructorCallback(${1:memobj}, ${2:pfn_notify}, ${3:user_data})]]></content>
+	<tabTrigger>clSetMemObjectDestructorCallback</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

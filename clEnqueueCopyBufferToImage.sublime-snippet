@@ -1,0 +1,6 @@
+<snippet>
+	<description>Enqueues A Command To Copy A Buffer To An Image</description>
+	<content><![CDATA[clEnqueueCopyBufferToImage(${1:command_queue}, ${2:src_buffer}, ${3:dst_image}, ${4:src_offset}, ${5:dst_origin}, ${6:region}, ${7:num_events_in_wait_list}, ${8:event_wait_list}, ${9:event})]]></content>
+	<tabTrigger>clEnqueueCopyBufferToImage</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

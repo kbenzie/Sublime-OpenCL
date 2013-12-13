@@ -1,0 +1,6 @@
+<snippet>
+	<description>Creates A 1D Image, 1D Image Buffer, 1D Image Array, 2D Image, 2D Image Array or 3D Image</description>
+	<content><![CDATA[clCreateImage(${1:context}, ${2:flags}, ${3:image_format}, ${4:image_desc}, ${5:host_ptr}, ${6:errcode_ret})]]></content>
+	<tabTrigger>clCreateImage</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

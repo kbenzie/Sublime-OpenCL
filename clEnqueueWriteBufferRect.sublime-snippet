@@ -1,0 +1,6 @@
+<snippet>
+	<description>Enqueue Commands To Write Rectangular Region From Host To Buffer</description>
+	<content><![CDATA[clEnqueueWriteBufferRect(${1:command_queue}, ${2:buffer}, ${3:blocking_write}, ${4:buffer_origin}, ${5:host_origin}, ${6:region}, ${7:buffer_row_pitch}, ${8:buffer_slice_pitch}, ${9:host_row_pitch}, ${10:host_slice_pitch}, ${11:ptr}, ${12:num_events_in_wait_list}, ${13:event_wait_list}, ${14:event})]]></content>
+	<tabTrigger>clEnqueueWriteBufferRect</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

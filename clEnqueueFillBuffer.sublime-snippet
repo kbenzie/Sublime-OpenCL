@@ -1,0 +1,6 @@
+<snippet>
+	<description>Enqueue A Command To Fill A Buffer With A Pattern</description>
+	<content><![CDATA[clEnqueueFillBuffer(${1:command_queue}, ${2:buffer}, ${3:pattern}, ${4:pattern_size}, ${5:offset}, ${6:size}, ${7:num_events_in_wait_list}, ${8:event_wait_list}, ${9:event})]]></content>
+	<tabTrigger>clEnqueueFillBuffer</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>
