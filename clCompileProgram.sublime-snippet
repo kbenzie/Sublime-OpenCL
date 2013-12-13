@@ -1,0 +1,6 @@
+<snippet>
+	<description>Compiles A Program's Source</description>
+	<content><![CDATA[clCompileProgram(${1:program}, ${2:num_devices}, ${3:device_list}, ${4:options}, ${5:num_input_headers}, ${6:input_headers}, ${7:header_include_names}, ${8:pfn_notify}, ${9:user_data})]]></content>
+	<tabTrigger>clCompileProgram</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

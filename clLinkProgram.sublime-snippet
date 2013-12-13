@@ -1,0 +1,6 @@
+<snippet>
+	<description>Links A Set Of Compiled Program Object And Libraries</description>
+	<content><![CDATA[clLinkProgram(${1:context}, ${2:num_devices}, ${3:device_list}, ${4:options}, ${5:num_input_programs}, ${6:input_programs}, ${7:pfn_notify}, ${8:user_data}, ${9:errcode_ret})]]></content>
+	<tabTrigger>clLinkProgram</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Creates A Program Object From Source</description>
+	<content><![CDATA[clCreateProgramWithSource(${1:context}, ${2:count}, ${3:strings}, ${4:lengths}, ${5:errcode_ret})]]></content>
+	<tabTrigger>clCreateProgramWithSource</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

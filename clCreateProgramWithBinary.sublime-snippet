@@ -1,0 +1,6 @@
+<snippet>
+	<description>Creates Program With Binary</description>
+	<content><![CDATA[clCreateProgramWithBinary(${1:context}, ${2:num_devices}, ${3:device_list}, ${4:lengths}, ${5:binaries}, ${6:binary_status}, ${7:errcode_ret})]]></content>
+	<tabTrigger>clCreateProgramWithBinary</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

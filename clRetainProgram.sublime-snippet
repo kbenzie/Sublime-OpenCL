@@ -1,0 +1,6 @@
+<snippet>
+	<description>Incremenets The Program Reference Count</description>
+	<content><![CDATA[clRetainProgram(${1:program})]]></content>
+	<tabTrigger>clRetainProgram</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

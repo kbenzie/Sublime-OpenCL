@@ -1,0 +1,6 @@
+<snippet>
+	<description>Builds (Compiles And Links) A Program</description>
+	<content><![CDATA[clBuildProgram(${1:program}, ${2:num_devices}, ${3:device_list}, ${4:options}, ${5:pfn_notify}, ${6:user_data})]]></content>
+	<tabTrigger>clBuildProgram</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

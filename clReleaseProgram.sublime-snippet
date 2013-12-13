@@ -1,0 +1,6 @@
+<snippet>
+	<description>Decrements The Program Reference Count</description>
+	<content><![CDATA[clReleaseProgram(${1:program})]]></content>
+	<tabTrigger>clReleaseProgram</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>
