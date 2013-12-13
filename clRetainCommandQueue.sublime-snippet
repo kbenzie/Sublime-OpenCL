@@ -1,0 +1,6 @@
+<snippet>
+	<description>Incremenets The Command Queue Reference Count</description>
+	<content><![CDATA[clRetainCommandQueue(${1:command_queue})]]></content>
+	<tabTrigger>clRetainCommandQueue</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

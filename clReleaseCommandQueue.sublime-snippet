@@ -1,0 +1,6 @@
+<snippet>
+	<description>Decremenets The Command Queue Reference Count</description>
+	<content><![CDATA[clReleaseCommandQueue(${1:command_queue})]]></content>
+	<tabTrigger>clReleaseCommandQueue</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

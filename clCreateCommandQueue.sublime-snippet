@@ -1,0 +1,6 @@
+<snippet>
+	<description>Create A Command Queue On A Device</description>
+	<content><![CDATA[clCreateCommandQueue(${1:context}, ${2:device}, ${3:properties}, ${4:errcode_ret})]]></content>
+	<tabTrigger>clCreateCommandQueue</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>
