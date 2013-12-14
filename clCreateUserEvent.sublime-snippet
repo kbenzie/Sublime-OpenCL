@@ -1,0 +1,6 @@
+<snippet>
+	<description>Creates A User Event Object</description>
+	<content><![CDATA[clCreateUserEvent(${1:context}, ${2:errcode_ret})]]></content>
+	<tabTrigger>clCreateUserEvent</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

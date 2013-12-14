@@ -1,0 +1,6 @@
+<snippet>
+	<description>Set The Execution Status Of A User Event Obect</description>
+	<content><![CDATA[clSetUserEventStatus(${1:event}, ${2:execution_status})]]></content>
+	<tabTrigger>clSetUserEventStatus</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Decremenets The Event Reference Count</description>
+	<content><![CDATA[clReleaseEvent(${1:event})]]></content>
+	<tabTrigger>clReleaseEvent</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Incremenets The Event Reference Count</description>
+	<content><![CDATA[clRetainEvent(${1:event})]]></content>
+	<tabTrigger>clRetainEvent</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

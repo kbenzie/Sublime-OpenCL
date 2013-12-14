@@ -1,0 +1,6 @@
+<snippet>
+	<description>Waits On The Host Thread For Events In List</description>
+	<content><![CDATA[clWaitForEvents(${1:num_events}, ${2:event_list})]]></content>
+	<tabTrigger>clWaitForEvents</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Registers A User Callback Function For A Specific Command Execution Status</description>
+	<content><![CDATA[clSetEventCallback(${1:event}, ${2:command_exec_callback_type}, ${3:pfn_event_notify}, ${4:user_data})]]></content>
+	<tabTrigger>clSetEventCallback</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>
