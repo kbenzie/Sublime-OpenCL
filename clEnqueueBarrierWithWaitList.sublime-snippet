@@ -1,0 +1,6 @@
+<snippet>
+	<description>A Syncronization Point That Enqueues A Barrier Operation</description>
+	<content><![CDATA[clEnqueueBarrierWithWaitList(${1:command_queue}, ${2:num_events_in_wait_list}, ${3:event_wait_list}, ${4:event})]]></content>
+	<tabTrigger>clEnqueueBarrierWithWaitList</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>
