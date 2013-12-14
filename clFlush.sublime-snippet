@@ -1,0 +1,6 @@
+<snippet>
+	<description>Issues All Previously Queued Commands In Command Queue</description>
+	<content><![CDATA[clFlush(${1:command_queue})]]></content>
+	<tabTrigger>clFlush</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

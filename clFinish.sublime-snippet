@@ -1,0 +1,6 @@
+<snippet>
+	<description>Block Until All Previously Queued Commands Complete</description>
+	<content><![CDATA[clFinish(${1:command_queue})]]></content>
+	<tabTrigger>clFinish</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>
