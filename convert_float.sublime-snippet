@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To float</description>
+	<content><![CDATA[convert_float(${1:x})]]></content>
+	<tabTrigger>convert_float</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

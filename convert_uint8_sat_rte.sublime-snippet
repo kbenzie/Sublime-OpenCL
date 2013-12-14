@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To uint8 Saturated Round To Nearest Even</description>
+	<content><![CDATA[convert_uint8_sat_rte(${1:x})]]></content>
+	<tabTrigger>convert_uint8_sat_rte</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

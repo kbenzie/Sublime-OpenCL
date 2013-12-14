@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To uint Saturated</description>
+	<content><![CDATA[convert_uint_sat(${1:x})]]></content>
+	<tabTrigger>convert_uint_sat</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

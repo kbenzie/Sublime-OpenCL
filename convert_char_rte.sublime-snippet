@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To char Round To Nearest Even</description>
+	<content><![CDATA[convert_char_rte(${1:x})]]></content>
+	<tabTrigger>convert_char_rte</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

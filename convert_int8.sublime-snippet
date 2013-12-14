@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To int8</description>
+	<content><![CDATA[convert_int8(${1:x})]]></content>
+	<tabTrigger>convert_int8</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

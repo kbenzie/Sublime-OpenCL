@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To double3</description>
+	<content><![CDATA[convert_double3(${1:x})]]></content>
+	<tabTrigger>convert_double3</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

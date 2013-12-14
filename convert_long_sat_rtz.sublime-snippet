@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To long Saturated Round Towards Zero</description>
+	<content><![CDATA[convert_long_sat_rtz(${1:x})]]></content>
+	<tabTrigger>convert_long_sat_rtz</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

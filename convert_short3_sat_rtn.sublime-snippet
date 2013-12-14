@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To short3 Saturated Round Toward Nevagite Infinity</description>
+	<content><![CDATA[convert_short3_sat_rtn(${1:x})]]></content>
+	<tabTrigger>convert_short3_sat_rtn</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

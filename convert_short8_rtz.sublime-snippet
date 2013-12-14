@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To short8 Round Towards Zero</description>
+	<content><![CDATA[convert_short8_rtz(${1:x})]]></content>
+	<tabTrigger>convert_short8_rtz</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

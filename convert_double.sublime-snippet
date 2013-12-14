@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To double</description>
+	<content><![CDATA[convert_double(${1:x})]]></content>
+	<tabTrigger>convert_double</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

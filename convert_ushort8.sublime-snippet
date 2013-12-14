@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To ushort8</description>
+	<content><![CDATA[convert_ushort8(${1:x})]]></content>
+	<tabTrigger>convert_ushort8</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

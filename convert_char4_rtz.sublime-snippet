@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To char4 Round Towards Zero</description>
+	<content><![CDATA[convert_char4_rtz(${1:x})]]></content>
+	<tabTrigger>convert_char4_rtz</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

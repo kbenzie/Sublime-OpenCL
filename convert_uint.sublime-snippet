@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To uint</description>
+	<content><![CDATA[convert_uint(${1:x})]]></content>
+	<tabTrigger>convert_uint</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

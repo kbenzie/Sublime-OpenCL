@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To ulong</description>
+	<content><![CDATA[convert_ulong(${1:x})]]></content>
+	<tabTrigger>convert_ulong</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

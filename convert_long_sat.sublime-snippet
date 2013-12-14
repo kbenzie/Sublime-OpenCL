@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To long Saturated</description>
+	<content><![CDATA[convert_long_sat(${1:x})]]></content>
+	<tabTrigger>convert_long_sat</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

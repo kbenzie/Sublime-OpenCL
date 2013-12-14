@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To uchar8 Saturated Round Toward Positive Infinity</description>
+	<content><![CDATA[convert_uchar8_sat_rtp(${1:x})]]></content>
+	<tabTrigger>convert_uchar8_sat_rtp</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

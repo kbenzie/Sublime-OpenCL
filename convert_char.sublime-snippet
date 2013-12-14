@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To char</description>
+	<content><![CDATA[convert_char(${1:x})]]></content>
+	<tabTrigger>convert_char</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

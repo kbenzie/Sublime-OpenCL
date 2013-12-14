@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To uchar3 Round To Nearest Even</description>
+	<content><![CDATA[convert_uchar3_rte(${1:x})]]></content>
+	<tabTrigger>convert_uchar3_rte</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

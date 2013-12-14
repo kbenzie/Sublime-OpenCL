@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To double16</description>
+	<content><![CDATA[convert_double16(${1:x})]]></content>
+	<tabTrigger>convert_double16</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To short16 Round To Nearest Even</description>
+	<content><![CDATA[convert_short16_rte(${1:x})]]></content>
+	<tabTrigger>convert_short16_rte</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

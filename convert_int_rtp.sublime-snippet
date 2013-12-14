@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To int Round Toward Positive Infinity</description>
+	<content><![CDATA[convert_int_rtp(${1:x})]]></content>
+	<tabTrigger>convert_int_rtp</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

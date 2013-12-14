@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To double Saturated Round Toward Positive Infinity</description>
+	<content><![CDATA[convert_double_sat_rtp(${1:x})]]></content>
+	<tabTrigger>convert_double_sat_rtp</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

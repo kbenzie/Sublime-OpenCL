@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To long16</description>
+	<content><![CDATA[convert_long16(${1:x})]]></content>
+	<tabTrigger>convert_long16</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

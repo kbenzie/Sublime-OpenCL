@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To ulong8 Round Towards Zero</description>
+	<content><![CDATA[convert_ulong8_rtz(${1:x})]]></content>
+	<tabTrigger>convert_ulong8_rtz</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

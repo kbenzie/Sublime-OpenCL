@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To long</description>
+	<content><![CDATA[convert_long(${1:x})]]></content>
+	<tabTrigger>convert_long</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To long2 Round Toward Nevagite Infinity</description>
+	<content><![CDATA[convert_long2_rtn(${1:x})]]></content>
+	<tabTrigger>convert_long2_rtn</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To long8</description>
+	<content><![CDATA[convert_long8(${1:x})]]></content>
+	<tabTrigger>convert_long8</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

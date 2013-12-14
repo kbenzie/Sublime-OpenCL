@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To uint3 Round Toward Nevagite Infinity</description>
+	<content><![CDATA[convert_uint3_rtn(${1:x})]]></content>
+	<tabTrigger>convert_uint3_rtn</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

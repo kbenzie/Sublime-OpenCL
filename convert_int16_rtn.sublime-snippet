@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To int16 Round Toward Nevagite Infinity</description>
+	<content><![CDATA[convert_int16_rtn(${1:x})]]></content>
+	<tabTrigger>convert_int16_rtn</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

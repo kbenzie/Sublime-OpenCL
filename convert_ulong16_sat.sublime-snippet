@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To ulong16 Saturated</description>
+	<content><![CDATA[convert_ulong16_sat(${1:x})]]></content>
+	<tabTrigger>convert_ulong16_sat</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

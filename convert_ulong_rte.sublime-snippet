@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To ulong Round To Nearest Even</description>
+	<content><![CDATA[convert_ulong_rte(${1:x})]]></content>
+	<tabTrigger>convert_ulong_rte</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

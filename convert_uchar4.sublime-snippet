@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To uchar4</description>
+	<content><![CDATA[convert_uchar4(${1:x})]]></content>
+	<tabTrigger>convert_uchar4</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

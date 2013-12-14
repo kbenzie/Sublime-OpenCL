@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To int3</description>
+	<content><![CDATA[convert_int3(${1:x})]]></content>
+	<tabTrigger>convert_int3</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

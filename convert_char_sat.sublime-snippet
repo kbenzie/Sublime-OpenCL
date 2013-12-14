@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To char Saturated</description>
+	<content><![CDATA[convert_char_sat(${1:x})]]></content>
+	<tabTrigger>convert_char_sat</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

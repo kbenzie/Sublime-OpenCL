@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To ulong4 Round Toward Nevagite Infinity</description>
+	<content><![CDATA[convert_ulong4_rtn(${1:x})]]></content>
+	<tabTrigger>convert_ulong4_rtn</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

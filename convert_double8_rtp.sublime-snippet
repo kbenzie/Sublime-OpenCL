@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To double8 Round Toward Positive Infinity</description>
+	<content><![CDATA[convert_double8_rtp(${1:x})]]></content>
+	<tabTrigger>convert_double8_rtp</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

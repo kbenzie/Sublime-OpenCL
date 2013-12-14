@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To short16 Round Toward Nevagite Infinity</description>
+	<content><![CDATA[convert_short16_rtn(${1:x})]]></content>
+	<tabTrigger>convert_short16_rtn</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

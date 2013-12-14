@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To char Round Toward Positive Infinity</description>
+	<content><![CDATA[convert_char_rtp(${1:x})]]></content>
+	<tabTrigger>convert_char_rtp</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

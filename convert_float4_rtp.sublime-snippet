@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To float4 Round Toward Positive Infinity</description>
+	<content><![CDATA[convert_float4_rtp(${1:x})]]></content>
+	<tabTrigger>convert_float4_rtp</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

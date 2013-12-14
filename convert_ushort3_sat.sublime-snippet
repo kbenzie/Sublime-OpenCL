@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To ushort3 Saturated</description>
+	<content><![CDATA[convert_ushort3_sat(${1:x})]]></content>
+	<tabTrigger>convert_ushort3_sat</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

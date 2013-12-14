@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To double16 Round Toward Positive Infinity</description>
+	<content><![CDATA[convert_double16_rtp(${1:x})]]></content>
+	<tabTrigger>convert_double16_rtp</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

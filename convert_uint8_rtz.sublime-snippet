@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To uint8 Round Towards Zero</description>
+	<content><![CDATA[convert_uint8_rtz(${1:x})]]></content>
+	<tabTrigger>convert_uint8_rtz</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To double8 Round Towards Zero</description>
+	<content><![CDATA[convert_double8_rtz(${1:x})]]></content>
+	<tabTrigger>convert_double8_rtz</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To short4</description>
+	<content><![CDATA[convert_short4(${1:x})]]></content>
+	<tabTrigger>convert_short4</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

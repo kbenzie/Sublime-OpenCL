@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To double4 Saturated</description>
+	<content><![CDATA[convert_double4_sat(${1:x})]]></content>
+	<tabTrigger>convert_double4_sat</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

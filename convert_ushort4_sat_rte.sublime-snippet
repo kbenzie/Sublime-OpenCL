@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To ushort4 Saturated Round To Nearest Even</description>
+	<content><![CDATA[convert_ushort4_sat_rte(${1:x})]]></content>
+	<tabTrigger>convert_ushort4_sat_rte</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

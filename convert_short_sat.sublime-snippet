@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To short Saturated</description>
+	<content><![CDATA[convert_short_sat(${1:x})]]></content>
+	<tabTrigger>convert_short_sat</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

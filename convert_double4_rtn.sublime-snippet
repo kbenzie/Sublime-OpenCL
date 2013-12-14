@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To double4 Round Toward Nevagite Infinity</description>
+	<content><![CDATA[convert_double4_rtn(${1:x})]]></content>
+	<tabTrigger>convert_double4_rtn</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To ulong3 Round Toward Positive Infinity</description>
+	<content><![CDATA[convert_ulong3_rtp(${1:x})]]></content>
+	<tabTrigger>convert_ulong3_rtp</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To short Round Toward Positive Infinity</description>
+	<content><![CDATA[convert_short_rtp(${1:x})]]></content>
+	<tabTrigger>convert_short_rtp</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

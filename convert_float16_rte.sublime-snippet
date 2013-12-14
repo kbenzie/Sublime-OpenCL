@@ -1,0 +1,6 @@
+<snippet>
+	<description>Explixit Type Conversion To float16 Round To Nearest Even</description>
+	<content><![CDATA[convert_float16_rte(${1:x})]]></content>
+	<tabTrigger>convert_float16_rte</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>
