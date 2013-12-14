@@ -1,0 +1,6 @@
+<snippet>
+	<description>Creates A Kernel Object</description>
+	<content><![CDATA[clCreateKernel(${1:program}, ${2:kernel_name}, ${3:errcode_ret})]]></content>
+	<tabTrigger>clCreateKernel</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

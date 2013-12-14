@@ -1,0 +1,6 @@
+<snippet>
+	<description>Creates Kernel Objects For All Kernel Functions In Program Object</description>
+	<content><![CDATA[clCreateKernelsInProgram(${1:program}, ${2:num_kernels}, ${3:kernels}, ${4:num_kernels_ret})]]></content>
+	<tabTrigger>clCreateKernelsInProgram</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

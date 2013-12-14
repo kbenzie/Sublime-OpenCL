@@ -1,0 +1,6 @@
+<snippet>
+	<description>Set Kernel Argument Value</description>
+	<content><![CDATA[clSetKernelArg(${1:kernel}, ${2:arg_indx}, ${3:arg_size}, ${4:arg_value})]]></content>
+	<tabTrigger>clSetKernelArg</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

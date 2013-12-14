@@ -1,0 +1,6 @@
+<snippet>
+	<description>Increments The Kernel Object Reference Count</description>
+	<content><![CDATA[clRetainKernel(${1:kernel})]]></content>
+	<tabTrigger>clRetainKernel</tabTrigger>
+	<scope>sourec.c, source.c++</scope>
+</snippet>

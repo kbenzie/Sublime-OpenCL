@@ -1,0 +1,6 @@
+<snippet>
+	<description>Returns Information About The Kernel Object That May Be Device Specific</description>
+	<content><![CDATA[clGetKernelWorkGroupInfo(${1:kernel}, ${2:device}, ${3:param_name}, ${4:param_value_size}, ${5:param_value}, ${6:param_value_size_ret})]]></content>
+	<tabTrigger>clGetKernelWorkGroupInfo</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Decrements The Kernel Reference Count</description>
+	<content><![CDATA[clReleaseKernel(${1:kernel})]]></content>
+	<tabTrigger>clReleaseKernel</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>
