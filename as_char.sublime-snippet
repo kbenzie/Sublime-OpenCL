@@ -1,0 +1,6 @@
+<snippet>
+	<description>Reinterpret Type As char</description>
+	<content><![CDATA[as_char(${1:x})]]></content>
+	<tabTrigger>as_char</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

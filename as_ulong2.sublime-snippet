@@ -1,0 +1,6 @@
+<snippet>
+	<description>Reinterpret Type As ulong2</description>
+	<content><![CDATA[as_ulong2(${1:x})]]></content>
+	<tabTrigger>as_ulong2</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

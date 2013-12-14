@@ -1,0 +1,6 @@
+<snippet>
+	<description>Reinterpret Type As float</description>
+	<content><![CDATA[as_float(${1:x})]]></content>
+	<tabTrigger>as_float</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

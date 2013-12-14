@@ -1,0 +1,6 @@
+<snippet>
+	<description>Reinterpret Type As uint2</description>
+	<content><![CDATA[as_uint2(${1:x})]]></content>
+	<tabTrigger>as_uint2</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

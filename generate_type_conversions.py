@@ -5,7 +5,7 @@ vec_list = [ "", "2", "3", "4", "8", "16", ]
 sat_list = [ "", "_sat", ]
 rounding_list = [ "", "_rte", "_rtz", "_rtp", "_rtn", ]
 
-def build_description(dest_type, sat, rounding):
+def build_convert_description(dest_type, sat, rounding):
 	description = "Explixit Type Conversion To " + dest_type
 	if sat is "_sat":
 		description += " Saturated"
@@ -19,18 +19,27 @@ def build_description(dest_type, sat, rounding):
 		description += " Round Toward Nevagite Infinity"
 	return description
 
-def write_snippet(dest_type, sat, rounding):
-	function = "convert_" + dest_type + sat + rounding
-	description = build_description(dest_type, sat, rounding)
+def write_snippet(description, function):
 	f = open(function + ".sublime-snippet", "w")
 	f.write("<snippet>\n\t<description>" + description + "</description>\n")
 	f.write("\t<content><![CDATA[" + function + "(${1:x})]]></content>\n")
 	f.write("\t<tabTrigger>" + function + "</tabTrigger>\n")
 	f.write("\t<scope>source.opencl</scope>\n</snippet>\n")
 
+def write_convert_snippet(dest_type, sat, rounding):
+	function = "convert_" + dest_type + sat + rounding
+	description = build_convert_description(dest_type, sat, rounding)
+	write_snippet(description, function)
+
+def write_as_snippet(dest_type):
+	function = "as_" + dest_type
+	description = "Reinterpret Type As " + dest_type
+	write_snippet(description, function)
+
 for scalar_type in type_list:
 	for vec in vec_list:
 		dest_type = scalar_type + vec
 		for sat in sat_list:
 			for rounding in rounding_list:
-				write_snippet(dest_type, sat, rounding)
+				write_convert_snippet(dest_type, sat, rounding)
+				write_as_snippet(dest_type)

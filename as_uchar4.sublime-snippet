@@ -1,0 +1,6 @@
+<snippet>
+	<description>Reinterpret Type As uchar4</description>
+	<content><![CDATA[as_uchar4(${1:x})]]></content>
+	<tabTrigger>as_uchar4</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

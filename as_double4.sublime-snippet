@@ -1,0 +1,6 @@
+<snippet>
+	<description>Reinterpret Type As double4</description>
+	<content><![CDATA[as_double4(${1:x})]]></content>
+	<tabTrigger>as_double4</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>

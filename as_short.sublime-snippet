@@ -1,0 +1,6 @@
+<snippet>
+	<description>Reinterpret Type As short</description>
+	<content><![CDATA[as_short(${1:x})]]></content>
+	<tabTrigger>as_short</tabTrigger>
+	<scope>source.opencl</scope>
+</snippet>
