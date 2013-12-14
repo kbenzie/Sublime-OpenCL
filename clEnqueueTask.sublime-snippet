@@ -1,0 +1,6 @@
+<snippet>
+	<description>Enqueues A Command To Execute A Kernel</description>
+	<content><![CDATA[clEnqueueTask(${1:command_queue}, ${2:kernel}, ${3:num_events_in_wait_list}, ${4:event_wait_list}, ${5:event})]]></content>
+	<tabTrigger>clEnqueueTask</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>
