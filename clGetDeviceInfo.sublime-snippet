@@ -1,6 +1,6 @@
 <snippet>
 	<description>Get Information About A Device</description>
-	<content><![CDATA[clGetDeviceInfo(${1:device}, ${2:param_name}, ${3:param_value_size}, ${4:param_value}, ${4:param_value_size_ret})]]></content>
+	<content><![CDATA[clGetDeviceInfo(${1:device}, ${2:param_name}, ${3:param_value_size}, ${4:param_value}, ${5:param_value_size_ret})]]></content>
 	<tabTrigger>clGetDeviceInfo</tabTrigger>
 	<scope>source.c, source.c++</scope>
 </snippet>
