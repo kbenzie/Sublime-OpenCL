@@ -2,5 +2,5 @@
 	<description>Absolute Difference</description>
 	<content><![CDATA[abs_diff(${1:x}, ${2:y})]]></content>
 	<tabTrigger>abs_diff</tabTrigger>
-	<scope></scope>
+	<scope>source.opencl</scope>
 </snippet>
